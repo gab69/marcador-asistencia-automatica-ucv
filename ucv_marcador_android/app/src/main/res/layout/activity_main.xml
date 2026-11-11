@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/fondo">
+
+    <!-- Encabezado corporativo -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/azul_oscuro"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingStart="20dp"
+        android:paddingTop="16dp"
+        android:paddingEnd="20dp"
+        android:paddingBottom="16dp">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="UCV Marcador"
+                android:textColor="@color/blanco"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Gestión de asistencia"
+                android:textColor="#9AA8C4"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/chipModo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/chip"
+            android:paddingStart="10dp"
+            android:paddingTop="4dp"
+            android:paddingEnd="10dp"
+            android:paddingBottom="4dp"
+            android:textSize="11sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <!-- Próxima marcación -->
+            <LinearLayout style="@style/Tarjeta">
+                <TextView style="@style/TituloTarjeta" android:text="Próxima marcación" />
+                <TextView
+                    android:id="@+id/tvProx"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/azul_oscuro"
+                    android:textSize="22sp"
+                    android:textStyle="bold" />
+                <TextView android:id="@+id/tvProxDet" style="@style/Ayuda" />
+            </LinearLayout>
+
+            <!-- Sesión -->
+            <LinearLayout style="@style/Tarjeta">
+                <TextView style="@style/TituloTarjeta" android:text="Sesión UCV Talent" />
+                <TextView
+                    style="@style/Ayuda"
+                    android:text="Inicia sesión una vez. La sesión queda guardada en la app y se reutiliza en cada marcación automática." />
+                <Button
+                    android:id="@+id/btnLogin"
+                    style="@style/BotonPrimario"
+                    android:layout_marginTop="12dp"
+                    android:text="Iniciar sesión" />
+            </LinearLayout>
+
+            <!-- Horarios -->
+            <LinearLayout style="@style/Tarjeta">
+                <TextView style="@style/TituloTarjeta" android:text="Horarios de marcación" />
+                <TextView
+                    style="@style/Ayuda"
+                    android:layout_marginBottom="8dp"
+                    android:text="La marcación se ejecuta exactamente a la hora indicada." />
+
+                <Switch
+                    android:id="@+id/swManana"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Turno Mañana"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:layout_marginBottom="14dp"
+                    android:orientation="horizontal">
+                    <Button android:id="@+id/btnMEnt" style="@style/BotonHora" android:layout_marginEnd="8dp" />
+                    <Button android:id="@+id/btnMSal" style="@style/BotonHora" />
+                </LinearLayout>
+
+                <Switch
+                    android:id="@+id/swTarde"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Turno Tarde"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:layout_marginBottom="12dp"
+                    android:orientation="horizontal">
+                    <Button android:id="@+id/btnTEnt" style="@style/BotonHora" android:layout_marginEnd="8dp" />
+                    <Button android:id="@+id/btnTSal" style="@style/BotonHora" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/nota"
+                    android:padding="10dp"
+                    android:text="Importante: UCV Talent solo permite marcar la salida entre 20 y 1 minuto antes de la hora de salida programada. Si tu salida es 22:00, configura por ejemplo 21:55."
+                    android:textColor="#7A5B00"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <!-- Opciones -->
+            <LinearLayout style="@style/Tarjeta">
+                <TextView style="@style/TituloTarjeta" android:text="Modo de marcación" />
+                <Switch
+                    android:id="@+id/swSoloEv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Modo solo evidencia (no pulsa «Marcar»)"
+                    android:textSize="15sp" />
+                <TextView
+                    style="@style/Ayuda"
+                    android:layout_marginTop="4dp"
+                    android:text="Recomendado mientras compruebas que las capturas son correctas. Las capturas se guardan en Galería › Pictures/UCVMarcador." />
+            </LinearLayout>
+
+            <!-- Capturas recientes -->
+            <LinearLayout style="@style/Tarjeta">
+                <TextView style="@style/TituloTarjeta" android:text="Capturas recientes" />
+                <TextView
+                    android:id="@+id/tvSinCapturas"
+                    style="@style/Ayuda"
+                    android:text="Aún no hay capturas. Ejecuta una prueba para generar la primera." />
+                <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:scrollbars="none">
+                    <LinearLayout
+                        android:id="@+id/llRecientes"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal" />
+                </HorizontalScrollView>
+                <TextView
+                    style="@style/Ayuda"
+                    android:layout_marginTop="6dp"
+                    android:textSize="12sp"
+                    android:text="Toca una captura para verla en grande." />
+            </LinearLayout>
+
+            <!-- Prueba manual -->
+            <LinearLayout style="@style/Tarjeta">
+                <TextView style="@style/TituloTarjeta" android:text="Prueba manual" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <Spinner
+                        android:id="@+id/spTurno"
+                        android:layout_width="0dp"
+                        android:layout_height="44dp"
+                        android:layout_weight="1" />
+                    <Spinner
+                        android:id="@+id/spTipo"
+                        android:layout_width="0dp"
+                        android:layout_height="44dp"
+                        android:layout_weight="1" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:orientation="horizontal">
+                    <Button
+                        android:id="@+id/btnPruebaVisible"
+                        style="@style/BotonPrimario"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_marginEnd="8dp"
+                        android:text="Ejecutar visible" />
+                    <Button
+                        android:id="@+id/btnPruebaFondo"
+                        style="@style/BotonSecundario"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:text="En segundo plano" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <!-- Permisos -->
+            <LinearLayout style="@style/Tarjeta">
+                <TextView style="@style/TituloTarjeta" android:text="Permisos" />
+                <TextView
+                    android:id="@+id/tvPermisos"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:lineSpacingExtra="4dp"
+                    android:textColor="@color/texto"
+                    android:textSize="13sp" />
+                <Button
+                    android:id="@+id/btnPermisos"
+                    style="@style/BotonSecundario"
+                    android:layout_marginTop="10dp"
+                    android:text="Conceder permisos pendientes" />
+            </LinearLayout>
+
+            <!-- Registro -->
+            <LinearLayout style="@style/Tarjeta">
+                <TextView style="@style/TituloTarjeta" android:text="Registro de actividad" />
+                <TextView
+                    android:id="@+id/tvLog"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/log"
+                    android:fontFamily="monospace"
+                    android:padding="10dp"
+                    android:textColor="#374151"
+                    android:textIsSelectable="true"
+                    android:textSize="11sp" />
+                <Button
+                    android:id="@+id/btnLimpiar"
+                    style="@style/BotonSecundario"
+                    android:layout_marginTop="10dp"
+                    android:text="Limpiar registro" />
+            </LinearLayout>
+
+            <!-- Acerca de -->
+            <LinearLayout style="@style/Tarjeta">
+                <TextView style="@style/TituloTarjeta" android:text="Acerca de" />
+                <TextView
+                    android:id="@+id/tvVersion"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/texto"
+                    android:textSize="14sp" />
+                <TextView
+                    style="@style/Ayuda"
+                    android:text="Desarrollado por @GabRec" />
+                <Button
+                    android:id="@+id/btnDesinstalar"
+                    style="@style/BotonPeligro"
+                    android:layout_marginTop="12dp"
+                    android:text="Desinstalar UCV Marcador" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="8dp"
+                android:gravity="center"
+                android:text="Desarrollado por @GabRec"
+                android:textColor="@color/texto_suave"
+                android:textSize="12sp" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
