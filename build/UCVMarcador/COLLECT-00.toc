@@ -1,0 +1,2145 @@
+([('PySide6\\MSVCP140.dll',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\PySide6\\MSVCP140.dll',
+   'BINARY'),
+  ('PySide6\\MSVCP140_1.dll',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\PySide6\\MSVCP140_1.dll',
+   'BINARY'),
+  ('PySide6\\MSVCP140_2.dll',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\PySide6\\MSVCP140_2.dll',
+   'BINARY'),
+  ('PySide6\\Qt6Core.dll',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\PySide6\\Qt6Core.dll',
+   'BINARY'),
+  ('PySide6\\Qt6Gui.dll',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\PySide6\\Qt6Gui.dll',
+   'BINARY'),
+  ('PySide6\\Qt6Network.dll',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\PySide6\\Qt6Network.dll',
+   'BINARY'),
+  ('PySide6\\Qt6OpenGL.dll',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\PySide6\\Qt6OpenGL.dll',
+   'BINARY'),
+  ('PySide6\\Qt6Pdf.dll',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\PySide6\\Qt6Pdf.dll',
+   'BINARY'),
+  ('PySide6\\Qt6Qml.dll',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\PySide6\\Qt6Qml.dll',
+   'BINARY'),
+  ('PySide6\\Qt6QmlMeta.dll',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\PySide6\\Qt6QmlMeta.dll',
+   'BINARY'),
+  ('PySide6\\Qt6QmlModels.dll',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\PySide6\\Qt6QmlModels.dll',
+   'BINARY'),
+  ('PySide6\\Qt6QmlWorkerScript.dll',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\PySide6\\Qt6QmlWorkerScript.dll',
+   'BINARY'),
+  ('PySide6\\Qt6Quick.dll',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\PySide6\\Qt6Quick.dll',
+   'BINARY'),
+  ('PySide6\\Qt6Svg.dll',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\PySide6\\Qt6Svg.dll',
+   'BINARY'),
+  ('PySide6\\Qt6VirtualKeyboard.dll',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\PySide6\\Qt6VirtualKeyboard.dll',
+   'BINARY'),
+  ('PySide6\\Qt6Widgets.dll',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\PySide6\\Qt6Widgets.dll',
+   'BINARY'),
+  ('PySide6\\QtCore.pyd',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\PySide6\\QtCore.pyd',
+   'EXTENSION'),
+  ('PySide6\\QtGui.pyd',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\PySide6\\QtGui.pyd',
+   'EXTENSION'),
+  ('PySide6\\QtNetwork.pyd',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\PySide6\\QtNetwork.pyd',
+   'EXTENSION'),
+  ('PySide6\\QtWidgets.pyd',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\PySide6\\QtWidgets.pyd',
+   'EXTENSION'),
+  ('PySide6\\VCRUNTIME140.dll',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\PySide6\\VCRUNTIME140.dll',
+   'BINARY'),
+  ('PySide6\\VCRUNTIME140_1.dll',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\PySide6\\VCRUNTIME140_1.dll',
+   'BINARY'),
+  ('PySide6\\opengl32sw.dll',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\PySide6\\opengl32sw.dll',
+   'BINARY'),
+  ('PySide6\\plugins\\generic\\qtuiotouchplugin.dll',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\PySide6\\plugins\\generic\\qtuiotouchplugin.dll',
+   'BINARY'),
+  ('PySide6\\plugins\\iconengines\\qsvgicon.dll',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\PySide6\\plugins\\iconengines\\qsvgicon.dll',
+   'BINARY'),
+  ('PySide6\\plugins\\imageformats\\qgif.dll',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\PySide6\\plugins\\imageformats\\qgif.dll',
+   'BINARY'),
+  ('PySide6\\plugins\\imageformats\\qicns.dll',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\PySide6\\plugins\\imageformats\\qicns.dll',
+   'BINARY'),
+  ('PySide6\\plugins\\imageformats\\qico.dll',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\PySide6\\plugins\\imageformats\\qico.dll',
+   'BINARY'),
+  ('PySide6\\plugins\\imageformats\\qjpeg.dll',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\PySide6\\plugins\\imageformats\\qjpeg.dll',
+   'BINARY'),
+  ('PySide6\\plugins\\imageformats\\qpdf.dll',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\PySide6\\plugins\\imageformats\\qpdf.dll',
+   'BINARY'),
+  ('PySide6\\plugins\\imageformats\\qsvg.dll',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\PySide6\\plugins\\imageformats\\qsvg.dll',
+   'BINARY'),
+  ('PySide6\\plugins\\imageformats\\qtga.dll',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\PySide6\\plugins\\imageformats\\qtga.dll',
+   'BINARY'),
+  ('PySide6\\plugins\\imageformats\\qtiff.dll',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\PySide6\\plugins\\imageformats\\qtiff.dll',
+   'BINARY'),
+  ('PySide6\\plugins\\imageformats\\qwbmp.dll',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\PySide6\\plugins\\imageformats\\qwbmp.dll',
+   'BINARY'),
+  ('PySide6\\plugins\\imageformats\\qwebp.dll',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\PySide6\\plugins\\imageformats\\qwebp.dll',
+   'BINARY'),
+  ('PySide6\\plugins\\networkinformation\\qnetworklistmanager.dll',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\PySide6\\plugins\\networkinformation\\qnetworklistmanager.dll',
+   'BINARY'),
+  ('PySide6\\plugins\\platforminputcontexts\\qtvirtualkeyboardplugin.dll',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\PySide6\\plugins\\platforminputcontexts\\qtvirtualkeyboardplugin.dll',
+   'BINARY'),
+  ('PySide6\\plugins\\platforms\\qdirect2d.dll',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\PySide6\\plugins\\platforms\\qdirect2d.dll',
+   'BINARY'),
+  ('PySide6\\plugins\\platforms\\qminimal.dll',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\PySide6\\plugins\\platforms\\qminimal.dll',
+   'BINARY'),
+  ('PySide6\\plugins\\platforms\\qoffscreen.dll',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\PySide6\\plugins\\platforms\\qoffscreen.dll',
+   'BINARY'),
+  ('PySide6\\plugins\\platforms\\qwindows.dll',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\PySide6\\plugins\\platforms\\qwindows.dll',
+   'BINARY'),
+  ('PySide6\\plugins\\styles\\qmodernwindowsstyle.dll',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\PySide6\\plugins\\styles\\qmodernwindowsstyle.dll',
+   'BINARY'),
+  ('PySide6\\plugins\\tls\\qcertonlybackend.dll',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\PySide6\\plugins\\tls\\qcertonlybackend.dll',
+   'BINARY'),
+  ('PySide6\\plugins\\tls\\qopensslbackend.dll',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\PySide6\\plugins\\tls\\qopensslbackend.dll',
+   'BINARY'),
+  ('PySide6\\plugins\\tls\\qschannelbackend.dll',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\PySide6\\plugins\\tls\\qschannelbackend.dll',
+   'BINARY'),
+  ('PySide6\\pyside6.abi3.dll',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\PySide6\\pyside6.abi3.dll',
+   'BINARY'),
+  ('PySide6\\translations\\qt_ar.qm',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\PySide6\\translations\\qt_ar.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_bg.qm',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\PySide6\\translations\\qt_bg.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_ca.qm',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\PySide6\\translations\\qt_ca.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_cs.qm',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\PySide6\\translations\\qt_cs.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_da.qm',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\PySide6\\translations\\qt_da.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_de.qm',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\PySide6\\translations\\qt_de.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_en.qm',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\PySide6\\translations\\qt_en.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_es.qm',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\PySide6\\translations\\qt_es.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_fa.qm',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\PySide6\\translations\\qt_fa.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_fi.qm',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\PySide6\\translations\\qt_fi.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_fr.qm',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\PySide6\\translations\\qt_fr.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_gd.qm',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\PySide6\\translations\\qt_gd.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_gl.qm',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\PySide6\\translations\\qt_gl.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_he.qm',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\PySide6\\translations\\qt_he.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_help_ar.qm',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\PySide6\\translations\\qt_help_ar.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_help_bg.qm',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\PySide6\\translations\\qt_help_bg.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_help_ca.qm',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\PySide6\\translations\\qt_help_ca.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_help_cs.qm',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\PySide6\\translations\\qt_help_cs.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_help_da.qm',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\PySide6\\translations\\qt_help_da.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_help_de.qm',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\PySide6\\translations\\qt_help_de.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_help_en.qm',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\PySide6\\translations\\qt_help_en.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_help_es.qm',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\PySide6\\translations\\qt_help_es.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_help_fr.qm',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\PySide6\\translations\\qt_help_fr.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_help_gl.qm',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\PySide6\\translations\\qt_help_gl.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_help_hr.qm',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\PySide6\\translations\\qt_help_hr.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_help_hu.qm',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\PySide6\\translations\\qt_help_hu.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_help_it.qm',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\PySide6\\translations\\qt_help_it.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_help_ja.qm',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\PySide6\\translations\\qt_help_ja.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_help_ka.qm',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\PySide6\\translations\\qt_help_ka.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_help_kk.qm',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\PySide6\\translations\\qt_help_kk.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_help_ko.qm',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\PySide6\\translations\\qt_help_ko.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_help_nl.qm',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\PySide6\\translations\\qt_help_nl.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_help_nn.qm',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\PySide6\\translations\\qt_help_nn.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_help_pl.qm',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\PySide6\\translations\\qt_help_pl.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_help_pt_BR.qm',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\PySide6\\translations\\qt_help_pt_BR.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_help_ru.qm',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\PySide6\\translations\\qt_help_ru.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_help_sk.qm',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\PySide6\\translations\\qt_help_sk.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_help_sl.qm',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\PySide6\\translations\\qt_help_sl.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_help_sv.qm',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\PySide6\\translations\\qt_help_sv.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_help_tr.qm',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\PySide6\\translations\\qt_help_tr.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_help_uk.qm',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\PySide6\\translations\\qt_help_uk.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_help_zh_CN.qm',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\PySide6\\translations\\qt_help_zh_CN.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_help_zh_TW.qm',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\PySide6\\translations\\qt_help_zh_TW.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_hr.qm',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\PySide6\\translations\\qt_hr.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_hu.qm',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\PySide6\\translations\\qt_hu.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_it.qm',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\PySide6\\translations\\qt_it.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_ja.qm',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\PySide6\\translations\\qt_ja.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_ka.qm',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\PySide6\\translations\\qt_ka.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_kk.qm',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\PySide6\\translations\\qt_kk.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_ko.qm',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\PySide6\\translations\\qt_ko.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_lg.qm',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\PySide6\\translations\\qt_lg.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_lt.qm',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\PySide6\\translations\\qt_lt.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_lv.qm',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\PySide6\\translations\\qt_lv.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_nl.qm',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\PySide6\\translations\\qt_nl.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_nn.qm',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\PySide6\\translations\\qt_nn.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_pl.qm',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\PySide6\\translations\\qt_pl.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_pt_BR.qm',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\PySide6\\translations\\qt_pt_BR.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_pt_PT.qm',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\PySide6\\translations\\qt_pt_PT.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_ru.qm',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\PySide6\\translations\\qt_ru.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_sk.qm',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\PySide6\\translations\\qt_sk.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_sl.qm',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\PySide6\\translations\\qt_sl.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_sv.qm',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\PySide6\\translations\\qt_sv.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_tr.qm',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\PySide6\\translations\\qt_tr.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_uk.qm',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\PySide6\\translations\\qt_uk.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_zh_CN.qm',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\PySide6\\translations\\qt_zh_CN.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_zh_TW.qm',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\PySide6\\translations\\qt_zh_TW.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_ar.qm',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_ar.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_bg.qm',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_bg.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_ca.qm',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_ca.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_cs.qm',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_cs.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_da.qm',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_da.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_de.qm',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_de.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_en.qm',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_en.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_es.qm',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_es.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_fa.qm',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_fa.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_fi.qm',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_fi.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_fr.qm',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_fr.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_gd.qm',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_gd.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_he.qm',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_he.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_hr.qm',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_hr.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_hu.qm',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_hu.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_it.qm',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_it.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_ja.qm',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_ja.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_ka.qm',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_ka.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_kk.qm',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_kk.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_ko.qm',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_ko.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_lg.qm',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_lg.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_lv.qm',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_lv.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_nl.qm',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_nl.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_nn.qm',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_nn.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_pl.qm',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_pl.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_pt_BR.qm',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_pt_BR.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_ru.qm',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_ru.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_sk.qm',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_sk.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_sv.qm',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_sv.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_tr.qm',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_tr.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_uk.qm',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_uk.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_zh_CN.qm',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_zh_CN.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_zh_TW.qm',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_zh_TW.qm',
+   'DATA'),
+  ('UCVMarcador.exe',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\build\\UCVMarcador\\UCVMarcador.exe',
+   'EXECUTABLE'),
+  ('VCRUNTIME140.dll', 'C:\\Python314\\VCRUNTIME140.dll', 'BINARY'),
+  ('VCRUNTIME140_1.dll', 'C:\\Python314\\VCRUNTIME140_1.dll', 'BINARY'),
+  ('_asyncio.pyd', 'C:\\Python314\\DLLs\\_asyncio.pyd', 'EXTENSION'),
+  ('_bz2.pyd', 'C:\\Python314\\DLLs\\_bz2.pyd', 'EXTENSION'),
+  ('_cffi_backend.cp314-win_amd64.pyd',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\_cffi_backend.cp314-win_amd64.pyd',
+   'EXTENSION'),
+  ('_ctypes.pyd', 'C:\\Python314\\DLLs\\_ctypes.pyd', 'EXTENSION'),
+  ('_decimal.pyd', 'C:\\Python314\\DLLs\\_decimal.pyd', 'EXTENSION'),
+  ('_hashlib.pyd', 'C:\\Python314\\DLLs\\_hashlib.pyd', 'EXTENSION'),
+  ('_lzma.pyd', 'C:\\Python314\\DLLs\\_lzma.pyd', 'EXTENSION'),
+  ('_multiprocessing.pyd',
+   'C:\\Python314\\DLLs\\_multiprocessing.pyd',
+   'EXTENSION'),
+  ('_overlapped.pyd', 'C:\\Python314\\DLLs\\_overlapped.pyd', 'EXTENSION'),
+  ('_queue.pyd', 'C:\\Python314\\DLLs\\_queue.pyd', 'EXTENSION'),
+  ('_socket.pyd', 'C:\\Python314\\DLLs\\_socket.pyd', 'EXTENSION'),
+  ('_ssl.pyd', 'C:\\Python314\\DLLs\\_ssl.pyd', 'EXTENSION'),
+  ('_uuid.pyd', 'C:\\Python314\\DLLs\\_uuid.pyd', 'EXTENSION'),
+  ('_wmi.pyd', 'C:\\Python314\\DLLs\\_wmi.pyd', 'EXTENSION'),
+  ('_zstd.pyd', 'C:\\Python314\\DLLs\\_zstd.pyd', 'EXTENSION'),
+  ('attrs-26.1.0.dist-info\\INSTALLER',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\attrs-26.1.0.dist-info\\INSTALLER',
+   'DATA'),
+  ('attrs-26.1.0.dist-info\\METADATA',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\attrs-26.1.0.dist-info\\METADATA',
+   'DATA'),
+  ('attrs-26.1.0.dist-info\\RECORD',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\attrs-26.1.0.dist-info\\RECORD',
+   'DATA'),
+  ('attrs-26.1.0.dist-info\\WHEEL',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\attrs-26.1.0.dist-info\\WHEEL',
+   'DATA'),
+  ('attrs-26.1.0.dist-info\\licenses\\LICENSE',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\attrs-26.1.0.dist-info\\licenses\\LICENSE',
+   'DATA'),
+  ('base_library.zip',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\build\\UCVMarcador\\base_library.zip',
+   'DATA'),
+  ('certifi\\cacert.pem',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\certifi\\cacert.pem',
+   'DATA'),
+  ('certifi\\py.typed',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\certifi\\py.typed',
+   'DATA'),
+  ('libcrypto-3-x64.dll', 'C:\\xampp\\php\\libcrypto-3-x64.dll', 'BINARY'),
+  ('libcrypto-3.dll', 'C:\\Python314\\DLLs\\libcrypto-3.dll', 'BINARY'),
+  ('libffi-8.dll', 'C:\\Python314\\DLLs\\libffi-8.dll', 'BINARY'),
+  ('libssl-3-x64.dll', 'C:\\xampp\\php\\libssl-3-x64.dll', 'BINARY'),
+  ('libssl-3.dll', 'C:\\Python314\\DLLs\\libssl-3.dll', 'BINARY'),
+  ('pyexpat.pyd', 'C:\\Python314\\DLLs\\pyexpat.pyd', 'EXTENSION'),
+  ('python3.dll', 'C:\\Python314\\python3.dll', 'BINARY'),
+  ('python314.dll', 'C:\\Python314\\python314.dll', 'BINARY'),
+  ('select.pyd', 'C:\\Python314\\DLLs\\select.pyd', 'EXTENSION'),
+  ('selenium-4.52.0.dist-info\\INSTALLER',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium-4.52.0.dist-info\\INSTALLER',
+   'DATA'),
+  ('selenium-4.52.0.dist-info\\LICENSE',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium-4.52.0.dist-info\\LICENSE',
+   'DATA'),
+  ('selenium-4.52.0.dist-info\\METADATA',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium-4.52.0.dist-info\\METADATA',
+   'DATA'),
+  ('selenium-4.52.0.dist-info\\NOTICE',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium-4.52.0.dist-info\\NOTICE',
+   'DATA'),
+  ('selenium-4.52.0.dist-info\\RECORD',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium-4.52.0.dist-info\\RECORD',
+   'DATA'),
+  ('selenium-4.52.0.dist-info\\REQUESTED',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium-4.52.0.dist-info\\REQUESTED',
+   'DATA'),
+  ('selenium-4.52.0.dist-info\\WHEEL',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium-4.52.0.dist-info\\WHEEL',
+   'DATA'),
+  ('selenium\\__init__.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\__init__.py',
+   'DATA'),
+  ('selenium\\_version.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\_version.py',
+   'DATA'),
+  ('selenium\\common\\__init__.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\common\\__init__.py',
+   'DATA'),
+  ('selenium\\common\\exceptions.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\common\\exceptions.py',
+   'DATA'),
+  ('selenium\\py.typed',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\py.typed',
+   'DATA'),
+  ('selenium\\webdriver\\__init__.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\__init__.py',
+   'DATA'),
+  ('selenium\\webdriver\\__init__.pyi',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\__init__.pyi',
+   'DATA'),
+  ('selenium\\webdriver\\chrome\\__init__.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\chrome\\__init__.py',
+   'DATA'),
+  ('selenium\\webdriver\\chrome\\__init__.pyi',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\chrome\\__init__.pyi',
+   'DATA'),
+  ('selenium\\webdriver\\chrome\\options.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\chrome\\options.py',
+   'DATA'),
+  ('selenium\\webdriver\\chrome\\remote_connection.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\chrome\\remote_connection.py',
+   'DATA'),
+  ('selenium\\webdriver\\chrome\\service.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\chrome\\service.py',
+   'DATA'),
+  ('selenium\\webdriver\\chrome\\webdriver.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\chrome\\webdriver.py',
+   'DATA'),
+  ('selenium\\webdriver\\chromium\\__init__.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\chromium\\__init__.py',
+   'DATA'),
+  ('selenium\\webdriver\\chromium\\options.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\chromium\\options.py',
+   'DATA'),
+  ('selenium\\webdriver\\chromium\\remote_connection.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\chromium\\remote_connection.py',
+   'DATA'),
+  ('selenium\\webdriver\\chromium\\service.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\chromium\\service.py',
+   'DATA'),
+  ('selenium\\webdriver\\chromium\\webdriver.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\chromium\\webdriver.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\__init__.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\__init__.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\_bidi\\__init__.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\_bidi\\__init__.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\_bidi\\bluetooth.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\_bidi\\bluetooth.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\_bidi\\browser.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\_bidi\\browser.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\_bidi\\browsing_context.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\_bidi\\browsing_context.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\_bidi\\digital_credentials.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\_bidi\\digital_credentials.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\_bidi\\domain.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\_bidi\\domain.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\_bidi\\emulation.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\_bidi\\emulation.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\_bidi\\errors.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\_bidi\\errors.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\_bidi\\input.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\_bidi\\input.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\_bidi\\log.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\_bidi\\log.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\_bidi\\network.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\_bidi\\network.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\_bidi\\permissions.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\_bidi\\permissions.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\_bidi\\script.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\_bidi\\script.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\_bidi\\serialization.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\_bidi\\serialization.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\_bidi\\session.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\_bidi\\session.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\_bidi\\speculation.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\_bidi\\speculation.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\_bidi\\storage.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\_bidi\\storage.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\_bidi\\transport.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\_bidi\\transport.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\_bidi\\user_agent_client_hints.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\_bidi\\user_agent_client_hints.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\_bidi\\web_extension.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\_bidi\\web_extension.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\action_chains.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\action_chains.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\actions\\__init__.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\actions\\__init__.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\actions\\action_builder.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\actions\\action_builder.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\actions\\input_device.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\actions\\input_device.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\actions\\interaction.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\actions\\interaction.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\actions\\key_actions.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\actions\\key_actions.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\actions\\key_input.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\actions\\key_input.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\actions\\mouse_button.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\actions\\mouse_button.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\actions\\pointer_actions.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\actions\\pointer_actions.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\actions\\pointer_input.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\actions\\pointer_input.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\actions\\wheel_actions.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\actions\\wheel_actions.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\actions\\wheel_input.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\actions\\wheel_input.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\alert.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\alert.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\api_request_context.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\api_request_context.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\bidi-mutation-listener.js',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\bidi-mutation-listener.js',
+   'DATA'),
+  ('selenium\\webdriver\\common\\bidi\\__init__.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\bidi\\__init__.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\bidi\\_event_manager.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\bidi\\_event_manager.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\bidi\\_network_handlers.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\bidi\\_network_handlers.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\bidi\\_script_handlers.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\bidi\\_script_handlers.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\bidi\\bluetooth.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\bidi\\bluetooth.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\bidi\\browser.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\bidi\\browser.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\bidi\\browsing_context.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\bidi\\browsing_context.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\bidi\\cdp.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\bidi\\cdp.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\bidi\\common.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\bidi\\common.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\bidi\\console.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\bidi\\console.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\bidi\\emulation.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\bidi\\emulation.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\bidi\\input.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\bidi\\input.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\bidi\\log.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\bidi\\log.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\bidi\\network.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\bidi\\network.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\bidi\\permissions.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\bidi\\permissions.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\bidi\\script.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\bidi\\script.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\bidi\\session.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\bidi\\session.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\bidi\\speculation.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\bidi\\speculation.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\bidi\\storage.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\bidi\\storage.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\bidi\\user_agent_client_hints.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\bidi\\user_agent_client_hints.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\bidi\\webextension.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\bidi\\webextension.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\by.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\by.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\desired_capabilities.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\desired_capabilities.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\devtools\\latest\\__init__.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\devtools\\latest\\__init__.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\devtools\\v154\\__init__.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\devtools\\v154\\__init__.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\devtools\\v154\\accessibility.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\devtools\\v154\\accessibility.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\devtools\\v154\\ads.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\devtools\\v154\\ads.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\devtools\\v154\\animation.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\devtools\\v154\\animation.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\devtools\\v154\\audits.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\devtools\\v154\\audits.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\devtools\\v154\\autofill.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\devtools\\v154\\autofill.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\devtools\\v154\\background_service.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\devtools\\v154\\background_service.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\devtools\\v154\\bluetooth_emulation.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\devtools\\v154\\bluetooth_emulation.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\devtools\\v154\\browser.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\devtools\\v154\\browser.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\devtools\\v154\\cache_storage.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\devtools\\v154\\cache_storage.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\devtools\\v154\\cast.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\devtools\\v154\\cast.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\devtools\\v154\\console.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\devtools\\v154\\console.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\devtools\\v154\\crash_report_context.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\devtools\\v154\\crash_report_context.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\devtools\\v154\\css.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\devtools\\v154\\css.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\devtools\\v154\\debugger.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\devtools\\v154\\debugger.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\devtools\\v154\\device_access.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\devtools\\v154\\device_access.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\devtools\\v154\\device_orientation.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\devtools\\v154\\device_orientation.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\devtools\\v154\\digital_credentials.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\devtools\\v154\\digital_credentials.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\devtools\\v154\\dom.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\devtools\\v154\\dom.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\devtools\\v154\\dom_debugger.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\devtools\\v154\\dom_debugger.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\devtools\\v154\\dom_snapshot.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\devtools\\v154\\dom_snapshot.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\devtools\\v154\\dom_storage.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\devtools\\v154\\dom_storage.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\devtools\\v154\\emulation.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\devtools\\v154\\emulation.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\devtools\\v154\\event_breakpoints.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\devtools\\v154\\event_breakpoints.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\devtools\\v154\\extensions.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\devtools\\v154\\extensions.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\devtools\\v154\\fed_cm.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\devtools\\v154\\fed_cm.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\devtools\\v154\\fetch.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\devtools\\v154\\fetch.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\devtools\\v154\\file_system.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\devtools\\v154\\file_system.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\devtools\\v154\\headless_experimental.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\devtools\\v154\\headless_experimental.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\devtools\\v154\\heap_profiler.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\devtools\\v154\\heap_profiler.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\devtools\\v154\\indexed_db.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\devtools\\v154\\indexed_db.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\devtools\\v154\\input_.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\devtools\\v154\\input_.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\devtools\\v154\\inspector.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\devtools\\v154\\inspector.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\devtools\\v154\\io.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\devtools\\v154\\io.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\devtools\\v154\\layer_tree.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\devtools\\v154\\layer_tree.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\devtools\\v154\\log.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\devtools\\v154\\log.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\devtools\\v154\\media.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\devtools\\v154\\media.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\devtools\\v154\\memory.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\devtools\\v154\\memory.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\devtools\\v154\\network.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\devtools\\v154\\network.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\devtools\\v154\\overlay.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\devtools\\v154\\overlay.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\devtools\\v154\\page.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\devtools\\v154\\page.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\devtools\\v154\\performance.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\devtools\\v154\\performance.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\devtools\\v154\\performance_timeline.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\devtools\\v154\\performance_timeline.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\devtools\\v154\\preload.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\devtools\\v154\\preload.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\devtools\\v154\\profiler.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\devtools\\v154\\profiler.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\devtools\\v154\\pwa.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\devtools\\v154\\pwa.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\devtools\\v154\\py.typed',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\devtools\\v154\\py.typed',
+   'DATA'),
+  ('selenium\\webdriver\\common\\devtools\\v154\\runtime.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\devtools\\v154\\runtime.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\devtools\\v154\\schema.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\devtools\\v154\\schema.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\devtools\\v154\\security.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\devtools\\v154\\security.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\devtools\\v154\\service_worker.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\devtools\\v154\\service_worker.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\devtools\\v154\\smart_card_emulation.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\devtools\\v154\\smart_card_emulation.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\devtools\\v154\\storage.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\devtools\\v154\\storage.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\devtools\\v154\\system_info.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\devtools\\v154\\system_info.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\devtools\\v154\\target.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\devtools\\v154\\target.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\devtools\\v154\\tethering.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\devtools\\v154\\tethering.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\devtools\\v154\\tracing.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\devtools\\v154\\tracing.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\devtools\\v154\\util.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\devtools\\v154\\util.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\devtools\\v154\\web_audio.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\devtools\\v154\\web_audio.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\devtools\\v154\\web_authn.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\devtools\\v154\\web_authn.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\devtools\\v154\\web_mcp.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\devtools\\v154\\web_mcp.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\devtools\\v155\\__init__.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\devtools\\v155\\__init__.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\devtools\\v155\\accessibility.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\devtools\\v155\\accessibility.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\devtools\\v155\\ads.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\devtools\\v155\\ads.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\devtools\\v155\\animation.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\devtools\\v155\\animation.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\devtools\\v155\\audits.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\devtools\\v155\\audits.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\devtools\\v155\\autofill.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\devtools\\v155\\autofill.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\devtools\\v155\\background_service.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\devtools\\v155\\background_service.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\devtools\\v155\\bluetooth_emulation.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\devtools\\v155\\bluetooth_emulation.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\devtools\\v155\\browser.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\devtools\\v155\\browser.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\devtools\\v155\\cache_storage.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\devtools\\v155\\cache_storage.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\devtools\\v155\\cast.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\devtools\\v155\\cast.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\devtools\\v155\\console.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\devtools\\v155\\console.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\devtools\\v155\\crash_report_context.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\devtools\\v155\\crash_report_context.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\devtools\\v155\\css.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\devtools\\v155\\css.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\devtools\\v155\\debugger.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\devtools\\v155\\debugger.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\devtools\\v155\\device_access.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\devtools\\v155\\device_access.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\devtools\\v155\\device_orientation.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\devtools\\v155\\device_orientation.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\devtools\\v155\\digital_credentials.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\devtools\\v155\\digital_credentials.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\devtools\\v155\\dom.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\devtools\\v155\\dom.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\devtools\\v155\\dom_debugger.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\devtools\\v155\\dom_debugger.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\devtools\\v155\\dom_snapshot.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\devtools\\v155\\dom_snapshot.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\devtools\\v155\\dom_storage.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\devtools\\v155\\dom_storage.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\devtools\\v155\\emulation.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\devtools\\v155\\emulation.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\devtools\\v155\\event_breakpoints.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\devtools\\v155\\event_breakpoints.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\devtools\\v155\\extensions.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\devtools\\v155\\extensions.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\devtools\\v155\\fed_cm.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\devtools\\v155\\fed_cm.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\devtools\\v155\\fetch.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\devtools\\v155\\fetch.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\devtools\\v155\\file_system.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\devtools\\v155\\file_system.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\devtools\\v155\\headless_experimental.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\devtools\\v155\\headless_experimental.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\devtools\\v155\\heap_profiler.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\devtools\\v155\\heap_profiler.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\devtools\\v155\\indexed_db.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\devtools\\v155\\indexed_db.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\devtools\\v155\\input_.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\devtools\\v155\\input_.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\devtools\\v155\\inspector.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\devtools\\v155\\inspector.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\devtools\\v155\\io.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\devtools\\v155\\io.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\devtools\\v155\\layer_tree.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\devtools\\v155\\layer_tree.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\devtools\\v155\\log.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\devtools\\v155\\log.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\devtools\\v155\\media.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\devtools\\v155\\media.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\devtools\\v155\\memory.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\devtools\\v155\\memory.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\devtools\\v155\\network.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\devtools\\v155\\network.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\devtools\\v155\\overlay.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\devtools\\v155\\overlay.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\devtools\\v155\\page.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\devtools\\v155\\page.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\devtools\\v155\\performance.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\devtools\\v155\\performance.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\devtools\\v155\\performance_timeline.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\devtools\\v155\\performance_timeline.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\devtools\\v155\\preload.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\devtools\\v155\\preload.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\devtools\\v155\\profiler.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\devtools\\v155\\profiler.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\devtools\\v155\\pwa.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\devtools\\v155\\pwa.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\devtools\\v155\\py.typed',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\devtools\\v155\\py.typed',
+   'DATA'),
+  ('selenium\\webdriver\\common\\devtools\\v155\\runtime.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\devtools\\v155\\runtime.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\devtools\\v155\\schema.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\devtools\\v155\\schema.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\devtools\\v155\\security.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\devtools\\v155\\security.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\devtools\\v155\\service_worker.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\devtools\\v155\\service_worker.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\devtools\\v155\\smart_card_emulation.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\devtools\\v155\\smart_card_emulation.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\devtools\\v155\\storage.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\devtools\\v155\\storage.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\devtools\\v155\\system_info.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\devtools\\v155\\system_info.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\devtools\\v155\\target.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\devtools\\v155\\target.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\devtools\\v155\\tethering.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\devtools\\v155\\tethering.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\devtools\\v155\\tracing.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\devtools\\v155\\tracing.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\devtools\\v155\\util.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\devtools\\v155\\util.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\devtools\\v155\\web_audio.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\devtools\\v155\\web_audio.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\devtools\\v155\\web_authn.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\devtools\\v155\\web_authn.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\devtools\\v155\\web_mcp.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\devtools\\v155\\web_mcp.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\devtools\\v156\\__init__.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\devtools\\v156\\__init__.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\devtools\\v156\\accessibility.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\devtools\\v156\\accessibility.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\devtools\\v156\\ads.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\devtools\\v156\\ads.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\devtools\\v156\\animation.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\devtools\\v156\\animation.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\devtools\\v156\\audits.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\devtools\\v156\\audits.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\devtools\\v156\\autofill.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\devtools\\v156\\autofill.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\devtools\\v156\\background_service.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\devtools\\v156\\background_service.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\devtools\\v156\\bluetooth_emulation.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\devtools\\v156\\bluetooth_emulation.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\devtools\\v156\\browser.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\devtools\\v156\\browser.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\devtools\\v156\\cache_storage.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\devtools\\v156\\cache_storage.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\devtools\\v156\\cast.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\devtools\\v156\\cast.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\devtools\\v156\\console.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\devtools\\v156\\console.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\devtools\\v156\\crash_report_context.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\devtools\\v156\\crash_report_context.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\devtools\\v156\\css.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\devtools\\v156\\css.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\devtools\\v156\\debugger.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\devtools\\v156\\debugger.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\devtools\\v156\\device_access.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\devtools\\v156\\device_access.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\devtools\\v156\\device_orientation.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\devtools\\v156\\device_orientation.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\devtools\\v156\\digital_credentials.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\devtools\\v156\\digital_credentials.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\devtools\\v156\\dom.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\devtools\\v156\\dom.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\devtools\\v156\\dom_debugger.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\devtools\\v156\\dom_debugger.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\devtools\\v156\\dom_snapshot.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\devtools\\v156\\dom_snapshot.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\devtools\\v156\\dom_storage.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\devtools\\v156\\dom_storage.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\devtools\\v156\\emulation.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\devtools\\v156\\emulation.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\devtools\\v156\\event_breakpoints.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\devtools\\v156\\event_breakpoints.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\devtools\\v156\\extensions.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\devtools\\v156\\extensions.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\devtools\\v156\\fed_cm.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\devtools\\v156\\fed_cm.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\devtools\\v156\\fetch.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\devtools\\v156\\fetch.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\devtools\\v156\\file_system.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\devtools\\v156\\file_system.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\devtools\\v156\\find_in_page.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\devtools\\v156\\find_in_page.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\devtools\\v156\\headless_experimental.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\devtools\\v156\\headless_experimental.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\devtools\\v156\\heap_profiler.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\devtools\\v156\\heap_profiler.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\devtools\\v156\\indexed_db.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\devtools\\v156\\indexed_db.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\devtools\\v156\\input_.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\devtools\\v156\\input_.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\devtools\\v156\\inspector.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\devtools\\v156\\inspector.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\devtools\\v156\\io.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\devtools\\v156\\io.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\devtools\\v156\\layer_tree.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\devtools\\v156\\layer_tree.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\devtools\\v156\\log.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\devtools\\v156\\log.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\devtools\\v156\\media.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\devtools\\v156\\media.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\devtools\\v156\\memory.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\devtools\\v156\\memory.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\devtools\\v156\\network.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\devtools\\v156\\network.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\devtools\\v156\\overlay.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\devtools\\v156\\overlay.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\devtools\\v156\\page.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\devtools\\v156\\page.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\devtools\\v156\\performance.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\devtools\\v156\\performance.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\devtools\\v156\\performance_timeline.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\devtools\\v156\\performance_timeline.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\devtools\\v156\\preload.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\devtools\\v156\\preload.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\devtools\\v156\\profiler.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\devtools\\v156\\profiler.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\devtools\\v156\\pwa.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\devtools\\v156\\pwa.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\devtools\\v156\\py.typed',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\devtools\\v156\\py.typed',
+   'DATA'),
+  ('selenium\\webdriver\\common\\devtools\\v156\\runtime.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\devtools\\v156\\runtime.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\devtools\\v156\\schema.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\devtools\\v156\\schema.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\devtools\\v156\\security.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\devtools\\v156\\security.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\devtools\\v156\\service_worker.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\devtools\\v156\\service_worker.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\devtools\\v156\\smart_card_emulation.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\devtools\\v156\\smart_card_emulation.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\devtools\\v156\\storage.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\devtools\\v156\\storage.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\devtools\\v156\\system_info.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\devtools\\v156\\system_info.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\devtools\\v156\\target.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\devtools\\v156\\target.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\devtools\\v156\\tethering.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\devtools\\v156\\tethering.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\devtools\\v156\\tracing.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\devtools\\v156\\tracing.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\devtools\\v156\\util.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\devtools\\v156\\util.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\devtools\\v156\\web_audio.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\devtools\\v156\\web_audio.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\devtools\\v156\\web_authn.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\devtools\\v156\\web_authn.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\devtools\\v156\\web_mcp.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\devtools\\v156\\web_mcp.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\driver_finder.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\driver_finder.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\fedcm\\__init__.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\fedcm\\__init__.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\fedcm\\account.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\fedcm\\account.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\fedcm\\dialog.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\fedcm\\dialog.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\keys.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\keys.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\linux-arm64\\selenium-manager',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\linux-arm64\\selenium-manager',
+   'DATA'),
+  ('selenium\\webdriver\\common\\linux-x86_64\\selenium-manager',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\linux-x86_64\\selenium-manager',
+   'DATA'),
+  ('selenium\\webdriver\\common\\log.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\log.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\macos\\selenium-manager',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\macos\\selenium-manager',
+   'DATA'),
+  ('selenium\\webdriver\\common\\mutation-listener.js',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\mutation-listener.js',
+   'DATA'),
+  ('selenium\\webdriver\\common\\options.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\options.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\print_page_options.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\print_page_options.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\proxy.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\proxy.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\selenium-manager-THIRD-PARTY-NOTICES.txt',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\selenium-manager-THIRD-PARTY-NOTICES.txt',
+   'DATA'),
+  ('selenium\\webdriver\\common\\selenium-manager.cdx.json',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\selenium-manager.cdx.json',
+   'DATA'),
+  ('selenium\\webdriver\\common\\selenium_manager.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\selenium_manager.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\service.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\service.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\timeouts.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\timeouts.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\utils.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\utils.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\virtual_authenticator.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\virtual_authenticator.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\web_extension.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\web_extension.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\webdriver.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\webdriver.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\window.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\window.py',
+   'DATA'),
+  ('selenium\\webdriver\\common\\windows\\selenium-manager.exe',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\common\\windows\\selenium-manager.exe',
+   'BINARY'),
+  ('selenium\\webdriver\\edge\\__init__.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\edge\\__init__.py',
+   'DATA'),
+  ('selenium\\webdriver\\edge\\__init__.pyi',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\edge\\__init__.pyi',
+   'DATA'),
+  ('selenium\\webdriver\\edge\\options.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\edge\\options.py',
+   'DATA'),
+  ('selenium\\webdriver\\edge\\remote_connection.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\edge\\remote_connection.py',
+   'DATA'),
+  ('selenium\\webdriver\\edge\\service.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\edge\\service.py',
+   'DATA'),
+  ('selenium\\webdriver\\edge\\webdriver.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\edge\\webdriver.py',
+   'DATA'),
+  ('selenium\\webdriver\\firefox\\__init__.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\firefox\\__init__.py',
+   'DATA'),
+  ('selenium\\webdriver\\firefox\\__init__.pyi',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\firefox\\__init__.pyi',
+   'DATA'),
+  ('selenium\\webdriver\\firefox\\firefox_profile.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\firefox\\firefox_profile.py',
+   'DATA'),
+  ('selenium\\webdriver\\firefox\\options.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\firefox\\options.py',
+   'DATA'),
+  ('selenium\\webdriver\\firefox\\remote_connection.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\firefox\\remote_connection.py',
+   'DATA'),
+  ('selenium\\webdriver\\firefox\\service.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\firefox\\service.py',
+   'DATA'),
+  ('selenium\\webdriver\\firefox\\webdriver.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\firefox\\webdriver.py',
+   'DATA'),
+  ('selenium\\webdriver\\ie\\__init__.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\ie\\__init__.py',
+   'DATA'),
+  ('selenium\\webdriver\\ie\\__init__.pyi',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\ie\\__init__.pyi',
+   'DATA'),
+  ('selenium\\webdriver\\ie\\options.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\ie\\options.py',
+   'DATA'),
+  ('selenium\\webdriver\\ie\\service.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\ie\\service.py',
+   'DATA'),
+  ('selenium\\webdriver\\ie\\webdriver.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\ie\\webdriver.py',
+   'DATA'),
+  ('selenium\\webdriver\\remote\\__init__.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\remote\\__init__.py',
+   'DATA'),
+  ('selenium\\webdriver\\remote\\bidi_connection.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\remote\\bidi_connection.py',
+   'DATA'),
+  ('selenium\\webdriver\\remote\\client_config.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\remote\\client_config.py',
+   'DATA'),
+  ('selenium\\webdriver\\remote\\command.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\remote\\command.py',
+   'DATA'),
+  ('selenium\\webdriver\\remote\\errorhandler.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\remote\\errorhandler.py',
+   'DATA'),
+  ('selenium\\webdriver\\remote\\fedcm.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\remote\\fedcm.py',
+   'DATA'),
+  ('selenium\\webdriver\\remote\\file_detector.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\remote\\file_detector.py',
+   'DATA'),
+  ('selenium\\webdriver\\remote\\findElements.js',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\remote\\findElements.js',
+   'DATA'),
+  ('selenium\\webdriver\\remote\\getAttribute.js',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\remote\\getAttribute.js',
+   'DATA'),
+  ('selenium\\webdriver\\remote\\isDisplayed.js',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\remote\\isDisplayed.js',
+   'DATA'),
+  ('selenium\\webdriver\\remote\\locator_converter.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\remote\\locator_converter.py',
+   'DATA'),
+  ('selenium\\webdriver\\remote\\mobile.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\remote\\mobile.py',
+   'DATA'),
+  ('selenium\\webdriver\\remote\\remote_connection.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\remote\\remote_connection.py',
+   'DATA'),
+  ('selenium\\webdriver\\remote\\script_key.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\remote\\script_key.py',
+   'DATA'),
+  ('selenium\\webdriver\\remote\\server.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\remote\\server.py',
+   'DATA'),
+  ('selenium\\webdriver\\remote\\shadowroot.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\remote\\shadowroot.py',
+   'DATA'),
+  ('selenium\\webdriver\\remote\\switch_to.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\remote\\switch_to.py',
+   'DATA'),
+  ('selenium\\webdriver\\remote\\utils.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\remote\\utils.py',
+   'DATA'),
+  ('selenium\\webdriver\\remote\\webdriver.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\remote\\webdriver.py',
+   'DATA'),
+  ('selenium\\webdriver\\remote\\webelement.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\remote\\webelement.py',
+   'DATA'),
+  ('selenium\\webdriver\\remote\\websocket_connection.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\remote\\websocket_connection.py',
+   'DATA'),
+  ('selenium\\webdriver\\safari\\__init__.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\safari\\__init__.py',
+   'DATA'),
+  ('selenium\\webdriver\\safari\\__init__.pyi',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\safari\\__init__.pyi',
+   'DATA'),
+  ('selenium\\webdriver\\safari\\options.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\safari\\options.py',
+   'DATA'),
+  ('selenium\\webdriver\\safari\\permissions.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\safari\\permissions.py',
+   'DATA'),
+  ('selenium\\webdriver\\safari\\remote_connection.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\safari\\remote_connection.py',
+   'DATA'),
+  ('selenium\\webdriver\\safari\\service.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\safari\\service.py',
+   'DATA'),
+  ('selenium\\webdriver\\safari\\webdriver.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\safari\\webdriver.py',
+   'DATA'),
+  ('selenium\\webdriver\\support\\__init__.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\support\\__init__.py',
+   'DATA'),
+  ('selenium\\webdriver\\support\\abstract_event_listener.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\support\\abstract_event_listener.py',
+   'DATA'),
+  ('selenium\\webdriver\\support\\color.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\support\\color.py',
+   'DATA'),
+  ('selenium\\webdriver\\support\\event_firing_webdriver.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\support\\event_firing_webdriver.py',
+   'DATA'),
+  ('selenium\\webdriver\\support\\events.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\support\\events.py',
+   'DATA'),
+  ('selenium\\webdriver\\support\\expected_conditions.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\support\\expected_conditions.py',
+   'DATA'),
+  ('selenium\\webdriver\\support\\relative_locator.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\support\\relative_locator.py',
+   'DATA'),
+  ('selenium\\webdriver\\support\\select.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\support\\select.py',
+   'DATA'),
+  ('selenium\\webdriver\\support\\ui.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\support\\ui.py',
+   'DATA'),
+  ('selenium\\webdriver\\support\\wait.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\support\\wait.py',
+   'DATA'),
+  ('selenium\\webdriver\\webkitgtk\\__init__.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\webkitgtk\\__init__.py',
+   'DATA'),
+  ('selenium\\webdriver\\webkitgtk\\__init__.pyi',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\webkitgtk\\__init__.pyi',
+   'DATA'),
+  ('selenium\\webdriver\\webkitgtk\\options.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\webkitgtk\\options.py',
+   'DATA'),
+  ('selenium\\webdriver\\webkitgtk\\service.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\webkitgtk\\service.py',
+   'DATA'),
+  ('selenium\\webdriver\\webkitgtk\\webdriver.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\webkitgtk\\webdriver.py',
+   'DATA'),
+  ('selenium\\webdriver\\wpewebkit\\__init__.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\wpewebkit\\__init__.py',
+   'DATA'),
+  ('selenium\\webdriver\\wpewebkit\\__init__.pyi',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\wpewebkit\\__init__.pyi',
+   'DATA'),
+  ('selenium\\webdriver\\wpewebkit\\options.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\wpewebkit\\options.py',
+   'DATA'),
+  ('selenium\\webdriver\\wpewebkit\\service.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\wpewebkit\\service.py',
+   'DATA'),
+  ('selenium\\webdriver\\wpewebkit\\webdriver.py',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\selenium\\webdriver\\wpewebkit\\webdriver.py',
+   'DATA'),
+  ('setuptools\\_vendor\\jaraco\\text\\Lorem ipsum.txt',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\setuptools\\_vendor\\jaraco\\text\\Lorem '
+   'ipsum.txt',
+   'DATA'),
+  ('shiboken6\\MSVCP140.dll',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\shiboken6\\MSVCP140.dll',
+   'BINARY'),
+  ('shiboken6\\Shiboken.pyd',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\shiboken6\\Shiboken.pyd',
+   'EXTENSION'),
+  ('shiboken6\\VCRUNTIME140.dll',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\shiboken6\\VCRUNTIME140.dll',
+   'BINARY'),
+  ('shiboken6\\VCRUNTIME140_1.dll',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\shiboken6\\VCRUNTIME140_1.dll',
+   'BINARY'),
+  ('shiboken6\\shiboken6.abi3.dll',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\shiboken6\\shiboken6.abi3.dll',
+   'BINARY'),
+  ('trio-0.35.0.dist-info\\INSTALLER',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\trio-0.35.0.dist-info\\INSTALLER',
+   'DATA'),
+  ('trio-0.35.0.dist-info\\METADATA',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\trio-0.35.0.dist-info\\METADATA',
+   'DATA'),
+  ('trio-0.35.0.dist-info\\RECORD',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\trio-0.35.0.dist-info\\RECORD',
+   'DATA'),
+  ('trio-0.35.0.dist-info\\WHEEL',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\trio-0.35.0.dist-info\\WHEEL',
+   'DATA'),
+  ('trio-0.35.0.dist-info\\entry_points.txt',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\trio-0.35.0.dist-info\\entry_points.txt',
+   'DATA'),
+  ('trio-0.35.0.dist-info\\licenses\\LICENSE',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\trio-0.35.0.dist-info\\licenses\\LICENSE',
+   'DATA'),
+  ('trio-0.35.0.dist-info\\licenses\\LICENSE.APACHE2',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\trio-0.35.0.dist-info\\licenses\\LICENSE.APACHE2',
+   'DATA'),
+  ('trio-0.35.0.dist-info\\licenses\\LICENSE.MIT',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\trio-0.35.0.dist-info\\licenses\\LICENSE.MIT',
+   'DATA'),
+  ('trio-0.35.0.dist-info\\top_level.txt',
+   'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+   'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\trio-0.35.0.dist-info\\top_level.txt',
+   'DATA'),
+  ('unicodedata.pyd', 'C:\\Python314\\DLLs\\unicodedata.pyd', 'EXTENSION')],)

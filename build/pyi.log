@@ -1,0 +1,217 @@
+﻿.\venv\Scripts\pyinstaller.exe : 294 INFO: PyInstaller: 6.22.3, contrib hooks: 2026.10
+En línea: 1 Carácter: 378
++ ... _marcador"; .\venv\Scripts\pyinstaller.exe --noconfirm --windowed --n ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (294 INFO: PyIns... hooks: 2026.10:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+294 INFO: Python: 3.14.0
+320 INFO: Platform: Windows-11-10.0.26300-SP0
+320 INFO: Python environment: C:\Users\GAB_RC\Desktop\Nueva carpeta\marcador\ucv_marcador\venv
+321 INFO: wrote C:\Users\GAB_RC\Desktop\Nueva carpeta\marcador\ucv_marcador\UCVMarcador.spec
+1289 INFO: Module search paths (PYTHONPATH):
+['C:\\Users\\GAB_RC\\Desktop\\Nueva '
+ 'carpeta\\marcador\\ucv_marcador\\venv\\Scripts\\pyinstaller.exe',
+ 'C:\\Python314\\python314.zip',
+ 'C:\\Python314\\DLLs',
+ 'C:\\Python314\\Lib',
+ 'C:\\Python314',
+ 'C:\\Users\\GAB_RC\\Desktop\\Nueva carpeta\\marcador\\ucv_marcador\\venv',
+ 'C:\\Users\\GAB_RC\\Desktop\\Nueva '
+ 'carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages',
+ 'C:\\Users\\GAB_RC\\Desktop\\Nueva carpeta\\marcador\\ucv_marcador']
+1627 INFO: Appending 'datas' from .spec
+1637 INFO: checking Analysis
+1677 INFO: Building because C:\Users\GAB_RC\Desktop\Nueva carpeta\marcador\ucv_marcador\app.py changed
+1677 INFO: Looking for Python shared library...
+1677 INFO: Using Python shared library: C:\Python314\python314.dll
+1677 INFO: Running Analysis Analysis-00.toc
+1677 INFO: Target bytecode optimization level: 0
+1677 INFO: Initializing module dependency graph...
+1679 INFO: Initializing module graph hook caches...
+1707 INFO: Analyzing modules for base_library.zip ...
+4103 INFO: Processing standard module hook 'hook-encodings.py' from 'C:\\Users\\GAB_RC\\Desktop\\Nueva 
+carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\PyInstaller\\hooks'
+4699 INFO: Processing standard module hook 'hook-pickle.py' from 'C:\\Users\\GAB_RC\\Desktop\\Nueva 
+carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\PyInstaller\\hooks'
+5060 INFO: Processing standard module hook 'hook-math.py' from 'C:\\Users\\GAB_RC\\Desktop\\Nueva 
+carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\PyInstaller\\hooks'
+5276 INFO: Processing standard module hook 'hook-difflib.py' from 'C:\\Users\\GAB_RC\\Desktop\\Nueva 
+carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\PyInstaller\\hooks'
+5298 INFO: Processing standard module hook 'hook-heapq.py' from 'C:\\Users\\GAB_RC\\Desktop\\Nueva 
+carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\PyInstaller\\hooks'
+9662 INFO: Caching module dependency graph...
+9693 INFO: Analyzing C:\Users\GAB_RC\Desktop\Nueva carpeta\marcador\ucv_marcador\app.py
+9741 INFO: Processing standard module hook 'hook-PySide6.py' from 'C:\\Users\\GAB_RC\\Desktop\\Nueva 
+carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\PyInstaller\\hooks'
+9948 INFO: Processing standard module hook 'hook-shiboken6.py' from 'C:\\Users\\GAB_RC\\Desktop\\Nueva 
+carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\PyInstaller\\hooks'
+10333 INFO: Processing standard module hook 'hook-PySide6.QtNetwork.py' from 'C:\\Users\\GAB_RC\\Desktop\\Nueva 
+carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\PyInstaller\\hooks'
+13623 INFO: Processing standard module hook 'hook-PySide6.QtCore.py' from 'C:\\Users\\GAB_RC\\Desktop\\Nueva 
+carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\PyInstaller\\hooks'
+17856 INFO: Processing standard module hook 'hook-PySide6.QtGui.py' from 'C:\\Users\\GAB_RC\\Desktop\\Nueva 
+carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\PyInstaller\\hooks'
+32894 INFO: Processing standard module hook 'hook-PySide6.QtWidgets.py' from 'C:\\Users\\GAB_RC\\Desktop\\Nueva 
+carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\PyInstaller\\hooks'
+36140 INFO: Processing standard module hook 'hook-selenium.py' from 'C:\\Users\\GAB_RC\\Desktop\\Nueva 
+carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+36581 INFO: Processing pre-safe-import-module hook 'hook-typing_extensions.py' from 'C:\\Users\\GAB_RC\\Desktop\\Nueva 
+carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+36583 INFO: SetuptoolsInfo: initializing cached setuptools info...
+38217 INFO: Processing standard module hook 'hook-multiprocessing.util.py' from 'C:\\Users\\GAB_RC\\Desktop\\Nueva 
+carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\PyInstaller\\hooks'
+38391 INFO: Processing standard module hook 'hook-xml.py' from 'C:\\Users\\GAB_RC\\Desktop\\Nueva 
+carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\PyInstaller\\hooks'
+38866 INFO: Processing standard module hook 'hook-_ctypes.py' from 'C:\\Users\\GAB_RC\\Desktop\\Nueva 
+carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\PyInstaller\\hooks'
+40026 INFO: Processing standard module hook 'hook-platform.py' from 'C:\\Users\\GAB_RC\\Desktop\\Nueva 
+carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\PyInstaller\\hooks'
+40131 INFO: Processing standard module hook 'hook-certifi.py' from 'C:\\Users\\GAB_RC\\Desktop\\Nueva 
+carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+40243 INFO: Processing standard module hook 'hook-urllib3.py' from 'C:\\Users\\GAB_RC\\Desktop\\Nueva 
+carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+40461 INFO: Processing pre-safe-import-module hook 'hook-backports.py' from 'C:\\Users\\GAB_RC\\Desktop\\Nueva 
+carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+40461 INFO: Setuptools: 'backports' appears to be a full setuptools-vendored copy - creating alias to 
+'setuptools._vendor.backports'!
+40480 INFO: Processing standard module hook 'hook-setuptools.py' from 'C:\\Users\\GAB_RC\\Desktop\\Nueva 
+carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\PyInstaller\\hooks'
+40522 INFO: Processing pre-safe-import-module hook 'hook-distutils.py' from 'C:\\Users\\GAB_RC\\Desktop\\Nueva 
+carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+40639 INFO: Processing standard module hook 'hook-sysconfig.py' from 'C:\\Users\\GAB_RC\\Desktop\\Nueva 
+carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\PyInstaller\\hooks'
+40655 INFO: Processing pre-safe-import-module hook 'hook-jaraco.py' from 'C:\\Users\\GAB_RC\\Desktop\\Nueva 
+carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+40656 INFO: Setuptools: 'jaraco' appears to be a full setuptools-vendored copy - creating alias to 
+'setuptools._vendor.jaraco'!
+40680 INFO: Processing pre-safe-import-module hook 'hook-more_itertools.py' from 'C:\\Users\\GAB_RC\\Desktop\\Nueva 
+carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+40681 INFO: Setuptools: 'more_itertools' appears to be a setuptools-vendored copy - creating alias to 
+'setuptools._vendor.more_itertools'!
+40906 INFO: Processing standard module hook 'hook-_osx_support.py' from 'C:\\Users\\GAB_RC\\Desktop\\Nueva 
+carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\PyInstaller\\hooks'
+40941 INFO: Processing pre-safe-import-module hook 'hook-packaging.py' from 'C:\\Users\\GAB_RC\\Desktop\\Nueva 
+carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+41492 INFO: Processing standard module hook 'hook-setuptools._vendor.jaraco.text.py' from 
+'C:\\Users\\GAB_RC\\Desktop\\Nueva carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\PyInstaller\\hooks'
+41494 INFO: Processing pre-safe-import-module hook 'hook-importlib_resources.py' from 
+'C:\\Users\\GAB_RC\\Desktop\\Nueva 
+carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+42696 INFO: Processing pre-safe-import-module hook 'hook-tomli.py' from 'C:\\Users\\GAB_RC\\Desktop\\Nueva 
+carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+42697 INFO: Setuptools: 'tomli' appears to be a setuptools-vendored copy - creating alias to 
+'setuptools._vendor.tomli'!
+43866 INFO: Processing pre-safe-import-module hook 'hook-wheel.py' from 'C:\\Users\\GAB_RC\\Desktop\\Nueva 
+carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+43867 INFO: Setuptools: 'wheel' appears to be a setuptools-vendored copy - creating alias to 
+'setuptools._vendor.wheel'!
+45347 INFO: Analyzing hidden import 'selenium.webdriver.common._bidi.bluetooth'
+45381 INFO: Analyzing hidden import 'selenium.webdriver.common._bidi.browser'
+45428 INFO: Analyzing hidden import 'selenium.webdriver.common._bidi.browsing_context'
+45547 INFO: Analyzing hidden import 'selenium.webdriver.common._bidi.digital_credentials'
+45551 INFO: Analyzing hidden import 'selenium.webdriver.common._bidi.emulation'
+45592 INFO: Analyzing hidden import 'selenium.webdriver.common._bidi.input'
+45621 INFO: Analyzing hidden import 'selenium.webdriver.common._bidi.log'
+45638 INFO: Analyzing hidden import 'selenium.webdriver.common._bidi.network'
+45693 INFO: Analyzing hidden import 'selenium.webdriver.common._bidi.permissions'
+45697 INFO: Analyzing hidden import 'selenium.webdriver.common._bidi.speculation'
+45700 INFO: Analyzing hidden import 'selenium.webdriver.common._bidi.storage'
+45721 INFO: Analyzing hidden import 'selenium.webdriver.common._bidi.user_agent_client_hints'
+45726 INFO: Analyzing hidden import 'selenium.webdriver.common.action_chains'
+45801 INFO: Analyzing hidden import 'selenium.webdriver.common.bidi.cdp'
+47092 INFO: Processing standard module hook 'hook-pycparser.py' from 'C:\\Users\\GAB_RC\\Desktop\\Nueva 
+carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+47979 INFO: Processing standard module hook 'hook-webbrowser.py' from 'C:\\Users\\GAB_RC\\Desktop\\Nueva 
+carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\PyInstaller\\hooks'
+50594 INFO: Analyzing hidden import 'selenium.webdriver.common.bidi.console'
+50595 INFO: Analyzing hidden import 'selenium.webdriver.common.log'
+50605 INFO: Analyzing hidden import 'selenium.webdriver.common.window'
+50606 INFO: Analyzing hidden import 'selenium.webdriver.edge.options'
+50609 INFO: Analyzing hidden import 'selenium.webdriver.edge.service'
+50613 INFO: Analyzing hidden import 'selenium.webdriver.edge.webdriver'
+50622 INFO: Analyzing hidden import 'selenium.webdriver.firefox.firefox_profile'
+50628 INFO: Analyzing hidden import 'selenium.webdriver.firefox.options'
+50644 INFO: Analyzing hidden import 'selenium.webdriver.firefox.service'
+50649 INFO: Analyzing hidden import 'selenium.webdriver.firefox.webdriver'
+50665 INFO: Analyzing hidden import 'selenium.webdriver.ie'
+50668 INFO: Analyzing hidden import 'selenium.webdriver.ie.options'
+50683 INFO: Analyzing hidden import 'selenium.webdriver.ie.service'
+50688 INFO: Analyzing hidden import 'selenium.webdriver.ie.webdriver'
+50692 INFO: Analyzing hidden import 'selenium.webdriver.remote.server'
+50701 INFO: Analyzing hidden import 'selenium.webdriver.safari.options'
+50705 INFO: Analyzing hidden import 'selenium.webdriver.safari.permissions'
+50712 INFO: Analyzing hidden import 'selenium.webdriver.safari.service'
+50716 INFO: Analyzing hidden import 'selenium.webdriver.safari.webdriver'
+50721 INFO: Analyzing hidden import 'selenium.webdriver.support.abstract_event_listener'
+50726 INFO: Analyzing hidden import 'selenium.webdriver.support.color'
+50758 INFO: Analyzing hidden import 'selenium.webdriver.support.event_firing_webdriver'
+50784 INFO: Analyzing hidden import 'selenium.webdriver.support.events'
+50794 INFO: Analyzing hidden import 'selenium.webdriver.webkitgtk'
+50796 INFO: Analyzing hidden import 'selenium.webdriver.webkitgtk.options'
+50800 INFO: Analyzing hidden import 'selenium.webdriver.webkitgtk.service'
+50805 INFO: Analyzing hidden import 'selenium.webdriver.webkitgtk.webdriver'
+50808 INFO: Analyzing hidden import 'selenium.webdriver.wpewebkit'
+50810 INFO: Analyzing hidden import 'selenium.webdriver.wpewebkit.options'
+50814 INFO: Analyzing hidden import 'selenium.webdriver.wpewebkit.service'
+50819 INFO: Analyzing hidden import 'selenium.webdriver.wpewebkit.webdriver'
+50829 INFO: Processing module hooks (post-graph stage)...
+50830 WARNING: Hidden import "pycparser.lextab" not found!
+50830 WARNING: Hidden import "pycparser.yacctab" not found!
+51037 INFO: Performing binary vs. data reclassification (487 entries)
+52858 INFO: Looking for ctypes DLLs
+52913 INFO: Analyzing run-time hooks ...
+52916 INFO: Including run-time hook 'pyi_rth_inspect.py' from 'C:\\Users\\GAB_RC\\Desktop\\Nueva 
+carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+52931 INFO: Including run-time hook 'pyi_rth_pkgutil.py' from 'C:\\Users\\GAB_RC\\Desktop\\Nueva 
+carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+52934 INFO: Including run-time hook 'pyi_rth_setuptools.py' from 'C:\\Users\\GAB_RC\\Desktop\\Nueva 
+carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+52945 INFO: Including run-time hook 'pyi_rth_multiprocessing.py' from 'C:\\Users\\GAB_RC\\Desktop\\Nueva 
+carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+52959 INFO: Including run-time hook 'pyi_rth_pyside6.py' from 'C:\\Users\\GAB_RC\\Desktop\\Nueva 
+carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+52963 INFO: Processing pre-find-module-path hook 'hook-_pyi_rth_utils.py' from 'C:\\Users\\GAB_RC\\Desktop\\Nueva 
+carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\PyInstaller\\hooks\\pre_find_module_path'
+52974 INFO: Processing standard module hook 'hook-_pyi_rth_utils.py' from 'C:\\Users\\GAB_RC\\Desktop\\Nueva 
+carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\PyInstaller\\hooks'
+53001 INFO: Creating base_library.zip...
+53022 INFO: Looking for dynamic libraries
+54245 INFO: Extra DLL search directories (AddDllDirectory): ['C:\\Users\\GAB_RC\\Desktop\\Nueva 
+carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\shiboken6']
+54245 INFO: Extra DLL search directories (PATH): ['C:\\Users\\GAB_RC\\Desktop\\Nueva 
+carpeta\\marcador\\ucv_marcador\\venv\\Lib\\site-packages\\PySide6']
+55278 INFO: Warnings written to C:\Users\GAB_RC\Desktop\Nueva 
+carpeta\marcador\ucv_marcador\build\UCVMarcador\warn-UCVMarcador.txt
+55347 INFO: Graph cross-reference written to C:\Users\GAB_RC\Desktop\Nueva 
+carpeta\marcador\ucv_marcador\build\UCVMarcador\xref-UCVMarcador.html
+55415 INFO: checking PYZ
+55450 INFO: Building because C:\Users\GAB_RC\Desktop\Nueva carpeta\marcador\ucv_marcador\worker.py changed
+55450 INFO: Building PYZ (ZlibArchive) C:\Users\GAB_RC\Desktop\Nueva 
+carpeta\marcador\ucv_marcador\build\UCVMarcador\PYZ-00.pyz
+55867 INFO: Building PYZ (ZlibArchive) C:\Users\GAB_RC\Desktop\Nueva 
+carpeta\marcador\ucv_marcador\build\UCVMarcador\PYZ-00.pyz completed successfully.
+55898 INFO: checking PKG
+55914 INFO: Building because C:\Users\GAB_RC\Desktop\Nueva carpeta\marcador\ucv_marcador\build\UCVMarcador\PYZ-00.pyz 
+changed
+55914 INFO: Building PKG (CArchive) UCVMarcador.pkg
+55955 INFO: Building PKG (CArchive) UCVMarcador.pkg completed successfully.
+55956 INFO: Bootloader C:\Users\GAB_RC\Desktop\Nueva 
+carpeta\marcador\ucv_marcador\venv\Lib\site-packages\PyInstaller\bootloader\Windows-64bit-intel\runw.exe
+55956 INFO: checking EXE
+55967 INFO: Rebuilding EXE-00.toc because pkg is more recent
+55967 INFO: Building EXE from EXE-00.toc
+55968 INFO: Copying bootloader EXE to C:\Users\GAB_RC\Desktop\Nueva 
+carpeta\marcador\ucv_marcador\build\UCVMarcador\UCVMarcador.exe
+56057 INFO: Copying icon to EXE
+56101 INFO: Copying 0 resources to EXE
+56102 INFO: Embedding manifest in EXE
+56144 INFO: Appending PKG archive to EXE
+56208 INFO: Fixing EXE headers
+56508 INFO: Building EXE from EXE-00.toc completed successfully.
+56515 INFO: checking COLLECT
+56534 INFO: Removing dir C:\Users\GAB_RC\Desktop\Nueva carpeta\marcador\ucv_marcador\dist\UCVMarcador
+56723 INFO: Building COLLECT COLLECT-00.toc
+57834 INFO: Building COLLECT COLLECT-00.toc completed successfully.
+57858 INFO: Build complete! The results are available in: C:\Users\GAB_RC\Desktop\Nueva 
+carpeta\marcador\ucv_marcador\dist

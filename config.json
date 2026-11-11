@@ -1,0 +1,19 @@
+{
+  "usuario": "",
+  "contrasena": "",
+  "modo_solo_evidencia": false,
+  "mostrar_navegador": true,
+  "turno_manana": {
+    "activo": true,
+    "entrada": "12:00",
+    "salida": "17:00"
+  },
+  "turno_tarde": {
+    "activo": true,
+    "entrada": "18:00",
+    "salida": "22:00"
+  },
+  "minutos_antes": 5,
+  "minutos_despues": 5,
+  "carpeta_evidencias": "evidencias"
+}
