@@ -29,18 +29,19 @@ public class MainActivity extends Activity {
     private static final int REQ_NOTIF = 1, REQ_UBIC = 2, REQ_UBIC_FONDO = 3;
 
     private final Handler h = new Handler(Looper.getMainLooper());
-    private TextView tvProx, tvProxDet, chipModo, tvPermisos, tvLog, tvSinCapturas;
+    private TextView tvProx, tvProxDet, tvPermisos, tvLog;
     private Spinner spTurno, spTipo;
-    private android.widget.LinearLayout llRecientes;
     private final java.util.concurrent.ExecutorService fondo = java.util.concurrent.Executors.newSingleThreadExecutor();
-    private String firmaRecientes = "";
+    private android.widget.LinearLayout llHistorial;
+    private TextView tvSinHistorial, tvDias, tvHoy;
+    private String firmaHistorial = "";
 
     private final Runnable refrescoLog = new Runnable() {
         @Override
         public void run() {
             tvLog.setText(Registro.ultimas(MainActivity.this, 40));
             actualizarProxima();
-            cargarRecientes();
+            cargarHistorial();
             h.postDelayed(this, 3000);
         }
     };
@@ -57,26 +58,27 @@ public class MainActivity extends Activity {
 
         tvProx = findViewById(R.id.tvProx);
         tvProxDet = findViewById(R.id.tvProxDet);
-        chipModo = findViewById(R.id.chipModo);
         tvPermisos = findViewById(R.id.tvPermisos);
         tvLog = findViewById(R.id.tvLog);
         spTurno = findViewById(R.id.spTurno);
         spTipo = findViewById(R.id.spTipo);
-        llRecientes = findViewById(R.id.llRecientes);
-        tvSinCapturas = findViewById(R.id.tvSinCapturas);
 
         findViewById(R.id.btnLogin).setOnClickListener(v -> startActivity(new Intent(this, LoginActivity.class)));
+        configurarCredenciales();
 
+        llHistorial = findViewById(R.id.llHistorial);
+        tvSinHistorial = findViewById(R.id.tvSinHistorial);
+        tvHoy = findViewById(R.id.tvHoy);
+        tvDias = findViewById(R.id.tvDias);
+        findViewById(R.id.btnLimpiarHistorial).setOnClickListener(v -> {
+            Historial.limpiar(this);
+            firmaHistorial = "";
+            cargarHistorial();
+        });
+
+        configurarDias();
         configurarTurno(R.id.swManana, R.id.btnMEnt, R.id.btnMSal, "Mañana");
         configurarTurno(R.id.swTarde, R.id.btnTEnt, R.id.btnTSal, "Tarde");
-
-        Switch swSolo = findViewById(R.id.swSoloEv);
-        swSolo.setChecked(Config.soloEvidencia(this));
-        swSolo.setOnCheckedChangeListener((s, v) -> {
-            Config.setSoloEvidencia(this, v);
-            Registro.log(this, v ? "Modo solo evidencia activado." : "Marcación real activada.");
-            actualizarProxima();
-        });
 
         spTurno.setAdapter(new ArrayAdapter<>(this, android.R.layout.simple_spinner_dropdown_item, Config.TURNOS));
         spTipo.setAdapter(new ArrayAdapter<>(this, android.R.layout.simple_spinner_dropdown_item, Config.TIPOS));
@@ -104,8 +106,7 @@ public class MainActivity extends Activity {
         ((TextView) findViewById(R.id.tvVersion)).setText("UCV Marcador para Android · versión " + version);
         findViewById(R.id.btnDesinstalar).setOnClickListener(v -> new AlertDialog.Builder(this)
                 .setTitle("Desinstalar")
-                .setMessage("Se eliminará UCV Marcador junto con su configuración y la sesión guardada. "
-                        + "Las capturas de la Galería se conservan.")
+                .setMessage("Se eliminará UCV Marcador junto con su configuración y la sesión guardada.")
                 .setPositiveButton("Desinstalar", (d, w) -> {
                     Intent i = new Intent(Intent.ACTION_DELETE, Uri.parse("package:" + getPackageName()));
                     startActivity(i);
@@ -136,90 +137,184 @@ public class MainActivity extends Activity {
         super.onDestroy();
     }
 
-    // ---------------- Capturas recientes ----------------
-    private void cargarRecientes() {
+    // ---------------- Credenciales ----------------
+    private void configurarCredenciales() {
+        android.widget.EditText etUsuario = findViewById(R.id.etUsuario);
+        android.widget.EditText etClave = findViewById(R.id.etClave);
+        TextView tvCred = findViewById(R.id.tvCredenciales);
+        Runnable mostrar = () -> {
+            boolean hay = Credenciales.hay(this);
+            etUsuario.setText(Credenciales.usuario(this));
+            etClave.setText("");
+            etClave.setHint(hay ? "Contraseña guardada (escribe para cambiarla)" : "Contraseña");
+            tvCred.setText(hay ? "✔  Credenciales guardadas y cifradas en este teléfono."
+                    : "✖  Aún no hay credenciales guardadas.");
+        };
+        mostrar.run();
+
+        findViewById(R.id.btnGuardarCred).setOnClickListener(v -> {
+            String usuario = etUsuario.getText().toString().trim();
+            String clave = etClave.getText().toString();
+            // Permite cambiar solo el usuario conservando la contraseña ya guardada.
+            if (clave.isEmpty() && Credenciales.hay(this)) clave = Credenciales.clave(this);
+            if (usuario.isEmpty() || clave.isEmpty()) {
+                Toast.makeText(this, "Escribe el usuario y la contraseña.", Toast.LENGTH_SHORT).show();
+                return;
+            }
+            if (Credenciales.guardar(this, usuario, clave)) {
+                Registro.log(this, "🔐 Credenciales guardadas.");
+                Toast.makeText(this, "Credenciales guardadas.", Toast.LENGTH_SHORT).show();
+            } else {
+                Toast.makeText(this, "No se pudieron guardar las credenciales.", Toast.LENGTH_LONG).show();
+            }
+            mostrar.run();
+        });
+        findViewById(R.id.btnBorrarCred).setOnClickListener(v -> {
+            Credenciales.borrar(this);
+            Registro.log(this, "Credenciales borradas.");
+            mostrar.run();
+        });
+    }
+
+    // ---------------- Registro de marcaciones (solo del día actual) ----------------
+    private void cargarHistorial() {
         if (fondo.isShutdown()) return;
         fondo.execute(() -> {
-            java.util.List<Evidencias.Captura> lista = Evidencias.recientes(this, 12);
-            StringBuilder firma = new StringBuilder();
-            for (Evidencias.Captura c : lista) firma.append(c.uri).append(';');
-            if (firma.toString().equals(firmaRecientes)) return; // sin cambios
-            int lado = Pantallas.dp(this, 96);
-            java.util.List<android.graphics.Bitmap> minis = new java.util.ArrayList<>();
-            for (Evidencias.Captura c : lista) minis.add(Evidencias.miniatura(this, c, lado * 2));
+            java.util.List<Historial.Entrada> lista = Historial.deHoy(this);
+            String hoy = new SimpleDateFormat("yyyyMMdd", Locale.US).format(new Date());
+            String firma = hoy + ":" + lista.size() + ":" + (lista.isEmpty() ? 0 : lista.get(0).fecha);
+            if (firma.equals(firmaHistorial)) return; // sin cambios
             h.post(() -> {
                 if (isDestroyed()) return;
-                firmaRecientes = firma.toString();
-                mostrarRecientes(lista, minis, lado);
+                firmaHistorial = firma;
+                mostrarHistorial(lista);
             });
         });
     }
 
-    private void mostrarRecientes(java.util.List<Evidencias.Captura> lista,
-                                  java.util.List<android.graphics.Bitmap> minis, int lado) {
-        llRecientes.removeAllViews();
-        tvSinCapturas.setVisibility(lista.isEmpty() ? android.view.View.VISIBLE : android.view.View.GONE);
-        SimpleDateFormat f = new SimpleDateFormat("dd/MM HH:mm", Locale.US);
+    private void mostrarHistorial(java.util.List<Historial.Entrada> lista) {
+        final int envolver = android.view.ViewGroup.LayoutParams.WRAP_CONTENT;
+        final int llenar = android.view.ViewGroup.LayoutParams.MATCH_PARENT;
+        llHistorial.removeAllViews();
+        String hoy = new SimpleDateFormat("EEEE dd/MM/yyyy", new Locale("es", "PE")).format(new Date());
+        tvHoy.setText("Hoy, " + hoy);
+        tvSinHistorial.setVisibility(lista.isEmpty() ? android.view.View.VISIBLE : android.view.View.GONE);
+        findViewById(R.id.btnLimpiarHistorial).setVisibility(
+                lista.isEmpty() ? android.view.View.GONE : android.view.View.VISIBLE);
         for (int i = 0; i < lista.size(); i++) {
-            Evidencias.Captura c = lista.get(i);
-            android.widget.LinearLayout item = new android.widget.LinearLayout(this);
-            item.setOrientation(android.widget.LinearLayout.VERTICAL);
-            android.widget.LinearLayout.LayoutParams lp = new android.widget.LinearLayout.LayoutParams(
-                    lado, android.view.ViewGroup.LayoutParams.WRAP_CONTENT);
-            lp.setMarginEnd(Pantallas.dp(this, 8));
+            Historial.Entrada e = lista.get(i);
+            if (i > 0) {
+                android.view.View linea = new android.view.View(this);
+                linea.setBackgroundColor(getColor(R.color.borde));
+                llHistorial.addView(linea, new android.widget.LinearLayout.LayoutParams(llenar, Pantallas.dp(this, 1)));
+            }
+            android.widget.LinearLayout fila = new android.widget.LinearLayout(this);
+            fila.setOrientation(android.widget.LinearLayout.VERTICAL);
+            fila.setPadding(0, Pantallas.dp(this, i == 0 ? 2 : 12), 0, Pantallas.dp(this, 12));
 
-            android.widget.ImageView img = new android.widget.ImageView(this);
-            img.setScaleType(android.widget.ImageView.ScaleType.CENTER_CROP);
-            img.setBackgroundResource(R.drawable.log);
-            img.setClipToOutline(true);
-            if (minis.get(i) != null) img.setImageBitmap(minis.get(i));
-            item.addView(img, new android.widget.LinearLayout.LayoutParams(lado, lado));
+            // Turno y tipo + estado
+            android.widget.LinearLayout cab = new android.widget.LinearLayout(this);
+            cab.setGravity(android.view.Gravity.CENTER_VERTICAL);
+            TextView titulo = new TextView(this);
+            titulo.setText(e.turno + " · " + e.tipo);
+            titulo.setTextSize(15);
+            titulo.setTextColor(getColor(R.color.azul_oscuro));
+            titulo.setTypeface(android.graphics.Typeface.DEFAULT_BOLD);
+            cab.addView(titulo, new android.widget.LinearLayout.LayoutParams(0, envolver, 1));
+            TextView estado = new TextView(this);
+            estado.setTextSize(11);
+            estado.setTypeface(android.graphics.Typeface.DEFAULT_BOLD);
+            estado.setBackgroundResource(R.drawable.chip);
+            estado.setPadding(Pantallas.dp(this, 10), Pantallas.dp(this, 4), Pantallas.dp(this, 10), Pantallas.dp(this, 4));
+            if (e.exito) {
+                estado.setText("✔ Marcada");
+                estado.setTextColor(0xFF166534);
+                estado.getBackground().mutate().setTint(0xFFE7F6EC);
+            } else {
+                estado.setText("✖ No completada");
+                estado.setTextColor(0xFFB91C1C);
+                estado.getBackground().mutate().setTint(0xFFFDECEC);
+            }
+            cab.addView(estado);
+            fila.addView(cab);
 
-            TextView t = new TextView(this);
-            t.setText(f.format(new Date(c.fecha)));
-            t.setTextSize(11);
-            t.setTextColor(getColor(R.color.texto_suave));
-            t.setGravity(android.view.Gravity.CENTER);
-            item.addView(t);
+            // Hora real de la marcación (hora, minuto y segundo)
+            TextView hora = new TextView(this);
+            hora.setText((e.horaMarcacion > 0 ? "Marcó a las " : "Intento a las ") + Historial.hms(e.hora()));
+            hora.setTextSize(14);
+            hora.setTextColor(getColor(R.color.texto));
+            fila.addView(hora);
 
-            item.setOnClickListener(v -> verCaptura(c));
-            llRecientes.addView(item, lp);
+            TextView resumen = new TextView(this);
+            resumen.setText(e.resumen);
+            resumen.setTextSize(12);
+            resumen.setTextColor(getColor(R.color.texto_suave));
+            fila.addView(resumen);
+
+            llHistorial.addView(fila);
         }
     }
 
-    private void verCaptura(Evidencias.Captura c) {
-        fondo.execute(() -> {
-            android.graphics.Bitmap bmp = Evidencias.miniatura(this, c,
-                    getResources().getDisplayMetrics().widthPixels);
-            h.post(() -> {
-                if (isDestroyed()) return;
-                if (bmp == null) {
-                    Toast.makeText(this, "No se pudo abrir la captura.", Toast.LENGTH_SHORT).show();
-                    return;
-                }
-                android.widget.ImageView img = new android.widget.ImageView(this);
-                img.setAdjustViewBounds(true);
-                img.setImageBitmap(bmp);
-                android.widget.ScrollView sv = new android.widget.ScrollView(this);
-                sv.addView(img);
-                AlertDialog.Builder d = new AlertDialog.Builder(this)
-                        .setTitle(c.nombre)
-                        .setView(sv)
-                        .setPositiveButton("Cerrar", null);
-                if ("content".equals(c.uri.getScheme())) {
-                    d.setNeutralButton("Abrir en Galería", (x, y) -> {
-                        try {
-                            startActivity(new Intent(Intent.ACTION_VIEW)
-                                    .setDataAndType(c.uri, "image/png")
-                                    .addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION));
-                        } catch (Exception e) {
-                            Toast.makeText(this, "No hay una app para ver imágenes.", Toast.LENGTH_SHORT).show();
-                        }
-                    });
-                }
-                d.show();
+    // ---------------- Días de la semana ----------------
+    private void configurarDias() {
+        android.widget.LinearLayout ll = findViewById(R.id.llDias);
+        ll.removeAllViews();
+        for (int i = 0; i < Config.DIAS.length; i++) {
+            final int dia = Config.DIAS[i];
+            TextView t = new TextView(this);
+            t.setText(Config.DIAS_LETRA[i]);
+            t.setContentDescription(Config.DIAS_NOMBRE[i]);
+            t.setGravity(android.view.Gravity.CENTER);
+            t.setTextSize(15);
+            t.setTypeface(android.graphics.Typeface.DEFAULT_BOLD);
+            t.setBackgroundResource(R.drawable.dia);
+            pintarDia(t, Config.diaActivo(this, dia));
+            t.setOnClickListener(v -> {
+                boolean activo = !Config.diaActivo(this, dia);
+                Config.setDiaActivo(this, dia, activo);
+                pintarDia(t, activo);
+                actualizarResumenDias();
+                reprogramar();
             });
-        });
+            android.widget.LinearLayout.LayoutParams lp =
+                    new android.widget.LinearLayout.LayoutParams(0, Pantallas.dp(this, 40), 1);
+            if (i < Config.DIAS.length - 1) lp.setMarginEnd(Pantallas.dp(this, 6));
+            ll.addView(t, lp);
+        }
+        actualizarResumenDias();
+    }
+
+    private void pintarDia(TextView t, boolean activo) {
+        t.setSelected(activo);
+        t.setTextColor(activo ? 0xFFFFFFFF : getColor(R.color.texto_suave));
+    }
+
+    private void actualizarResumenDias() {
+        StringBuilder si = new StringBuilder();
+        int n = 0;
+        for (int i = 0; i < Config.DIAS.length; i++) {
+            if (!Config.diaActivo(this, Config.DIAS[i])) continue;
+            if (n++ > 0) si.append(", ");
+            si.append(Config.DIAS_NOMBRE[i]);
+        }
+        if (n == 0) tvDias.setText("Ningún día seleccionado: no se marcará automáticamente.");
+        else if (n == Config.DIAS.length) tvDias.setText("Se repite todos los días.");
+        else tvDias.setText("Se repite: " + si + ". Los demás días no se marca.");
+    }
+
+    /** «Hoy», «Mañana» o «lunes 23/11» según el día del evento. */
+    private static String diaTexto(long cuando) {
+        Calendar cal = Calendar.getInstance(), ref = Calendar.getInstance();
+        cal.setTimeInMillis(cuando);
+        for (int i = 0; i <= 1; i++) {
+            if (ref.get(Calendar.YEAR) == cal.get(Calendar.YEAR)
+                    && ref.get(Calendar.DAY_OF_YEAR) == cal.get(Calendar.DAY_OF_YEAR)) {
+                return i == 0 ? "Hoy" : "Mañana";
+            }
+            ref.add(Calendar.DAY_OF_YEAR, 1);
+        }
+        String s = new SimpleDateFormat("EEEE dd/MM", new Locale("es", "PE")).format(new Date(cuando));
+        return s.substring(0, 1).toUpperCase() + s.substring(1);
     }
 
     // ---------------- Horarios ----------------
@@ -248,8 +343,8 @@ public class MainActivity extends Activity {
 
     private void reprogramar() {
         Programador.Evento ev = Programador.programar(this);
-        Registro.log(this, "Horarios guardados." + (ev == null ? " No hay turnos activos."
-                : " Próxima: " + ev.turno + " " + ev.tipo + " a las "
+        Registro.log(this, "Horarios guardados." + (ev == null ? " No hay turnos ni días activos."
+                : " Próxima: " + ev.turno + " " + ev.tipo + ", " + diaTexto(ev.cuando).toLowerCase() + " a las "
                 + new SimpleDateFormat("HH:mm", Locale.US).format(new Date(ev.cuando))));
         actualizarProxima();
     }
@@ -258,23 +353,12 @@ public class MainActivity extends Activity {
         Programador.Evento ev = Programador.proximo(this, System.currentTimeMillis());
         if (ev == null) {
             tvProx.setText("Sin programar");
-            tvProxDet.setText("No hay turnos activos.");
+            tvProxDet.setText(Config.hayDiasActivos(this) ? "No hay turnos activos."
+                    : "No hay días seleccionados.");
         } else {
-            Calendar hoy = Calendar.getInstance(), cal = Calendar.getInstance();
-            cal.setTimeInMillis(ev.cuando);
-            boolean esHoy = hoy.get(Calendar.DAY_OF_YEAR) == cal.get(Calendar.DAY_OF_YEAR);
-            tvProx.setText((esHoy ? "Hoy, " : "Mañana, ")
+            tvProx.setText(diaTexto(ev.cuando) + ", "
                     + new SimpleDateFormat("HH:mm", Locale.US).format(new Date(ev.cuando)));
             tvProxDet.setText("Turno " + ev.turno + " · " + ev.tipo);
-        }
-        if (Config.soloEvidencia(this)) {
-            chipModo.setText("Solo evidencia");
-            chipModo.setTextColor(0xFF8A5A00);
-            chipModo.getBackground().mutate().setTint(0xFFFFF4DB);
-        } else {
-            chipModo.setText("Marcación real");
-            chipModo.setTextColor(0xFF166534);
-            chipModo.getBackground().mutate().setTint(0xFFE7F6EC);
         }
     }
 

@@ -37,11 +37,18 @@ public final class Notificaciones {
                 .build();
     }
 
-    public static void resultado(Context c, boolean exito, String titulo, String texto) {
+    /**
+     * Notifica el resultado. El título y la hora de la notificación muestran el momento
+     * real de la marcación (HH:mm:ss); si no se llegó a marcar, el momento del resultado.
+     */
+    public static void resultado(Context c, boolean exito, long horaMarcacion, String titulo, String texto) {
         crearCanales(c);
+        long cuando = horaMarcacion > 0 ? horaMarcacion : System.currentTimeMillis();
         Notification n = new Notification.Builder(c, CANAL_RESULTADOS)
                 .setSmallIcon(R.drawable.ic_notificacion)
-                .setContentTitle((exito ? "✔ " : "✖ ") + titulo)
+                .setContentTitle((exito ? "✔ " : "✖ ") + titulo + " · " + Historial.hms(cuando))
+                .setWhen(cuando)
+                .setShowWhen(true)
                 .setContentText(texto)
                 .setStyle(new Notification.BigTextStyle().bigText(texto))
                 .setContentIntent(abrirApp(c))

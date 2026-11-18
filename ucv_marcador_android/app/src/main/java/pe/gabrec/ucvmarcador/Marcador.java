@@ -18,17 +18,19 @@ import org.json.JSONObject;
  * Motor de marcación: carga UCV Talent en un WebView y ejecuta los mismos pasos que
  * la versión de escritorio (pestaña «Marcación manual», turno, botón «Marcar»).
  * Funciona con un WebView visible (prueba) o sin mostrar (servicio en segundo plano).
+ * Siempre pulsa «Marcar» cuando el botón está habilitado.
  */
 public class Marcador {
     public interface AlTerminar {
-        void terminado(boolean exito, String resumen);
+        /** @param horaMarcacion ms del clic en «Marcar», o 0 si no se pulsó. */
+        void terminado(boolean exito, long horaMarcacion, String resumen);
     }
 
     private static final long LIMITE_MS = 90_000;
 
     /** Un paso por llamada; devuelve el estado como texto. */
     private static final String JS_PASO =
-            "(function(turno,tipo,soloEv){"
+            "(function(turno,tipo){"
             + "function n(s){return (s||'').replace(/\\s+/g,' ').trim();}"
             + "function vis(e){return e&&e.getClientRects().length>0;}"
             + "var card=document.querySelector('mark-card');"
@@ -52,7 +54,6 @@ public class Marcador {
             + "if(!bt)return 'esperando_boton';"
             + "bt.scrollIntoView({block:'center'});"
             + "if(bt.disabled)return 'deshabilitado|'+et;"
-            + "if(soloEv)return 'habilitado|'+et;"
             + "bt.click();return 'clic|'+et;"
             + "})";
 
@@ -62,45 +63,71 @@ public class Marcador {
             + "return t.indexOf('Aceptar')>=0||t.indexOf('Confirmar')>=0||t.indexOf('Sí')>=0;})[0];"
             + "if(!b)return 'sin_dialogo';b.click();return 'confirmado';})()";
 
-    /** Lleva a la vista la tarjeta «Mis marcaciones online» y devuelve su rectángulo (px CSS). */
-    private static final String JS_RECT =
-            "(function(){var c=document.querySelector('mark-card');if(!c)return null;"
-            + "var el=c,p=c.parentElement,ancho=window.innerWidth;"
-            + "for(var i=0;i<6&&p&&p!==document.body;i++,p=p.parentElement){"
-            + "  if(/marcaciones/i.test(el.textContent))break;"
-            + "  if(p.getBoundingClientRect().width>ancho*0.99)break;"
-            + "  el=p;}"
-            + "if(el.getBoundingClientRect().height<50&&c.firstElementChild)el=c.firstElementChild;"
-            + "el.scrollIntoView({block:'start'});window.scrollBy(0,-8);"
-            + "var r=el.getBoundingClientRect();"
-            + "return JSON.stringify({x:r.left,y:r.top,w:r.width,h:r.height,dpr:window.devicePixelRatio||1});})()";
+    /**
+     * Un paso del inicio de sesión con las credenciales guardadas: primero rellena los
+     * campos visibles y, en la llamada siguiente, envía el formulario. Sirve para
+     * formularios de un paso o de dos (usuario y luego contraseña).
+     */
+    private static final String JS_LOGIN =
+            "(function(u,p){"
+            + "function vis(e){return e&&e.getClientRects().length>0&&!e.disabled;}"
+            + "function q(s,r){return [].slice.call((r||document).querySelectorAll(s)).filter(vis);}"
+            + "function poner(el,v){"
+            + "  if(el.__ucv===v&&el.value)return false;"
+            + "  var d=Object.getOwnPropertyDescriptor(HTMLInputElement.prototype,'value');"
+            + "  el.focus();d.set.call(el,v);el.__ucv=v;"
+            + "  ['input','change','blur'].forEach(function(n){el.dispatchEvent(new Event(n,{bubbles:true}));});"
+            + "  return true;}"
+            + "function enviar(el){"
+            + "  var f=el.form||el.closest('form'),r=f||document;"
+            + "  var b=q('button[type=submit],input[type=submit]',r)[0];"
+            + "  if(!b)b=q('button,input[type=button],[role=button]',r).filter(function(x){"
+            + "    return /ingres|inici|entrar|siguiente|next|sign.?in|log.?in|acceder|continuar/i.test(x.textContent||x.value||'');})[0];"
+            + "  if(b){b.click();return true;}"
+            + "  if(f&&f.requestSubmit){f.requestSubmit();return true;}"
+            + "  return false;}"
+            + "var pw=q('input[type=password]');"
+            + "var us=q('input[type=email],input[type=text],input[type=tel],input:not([type])');"
+            + "if(pw.length){"
+            + "  var c=false;"
+            + "  if(us.length&&poner(us[0],u))c=true;"
+            + "  if(poner(pw[0],p))c=true;"
+            + "  if(c)return 'llenado';"
+            + "  return enviar(pw[0])?'enviado_clave':'sin_boton';}"
+            + "if(us.length){"
+            + "  if(poner(us[0],u))return 'llenado';"
+            + "  return enviar(us[0])?'enviado_usuario':'sin_boton';}"
+            + "return 'nada';"
+            + "})";
+
+    /** Tope de envíos de la contraseña por ejecución, para no bloquear la cuenta. */
+    private static final int MAX_ENVIOS_CLAVE = 2;
+    private static final int MAX_PASOS_LOGIN = 12;
+
+    private int enviosClave, pasosLogin;
+    private boolean loginAvisado;
 
     private final Context ctx;
     private final WebView web;
     private final String turno, tipo;
-    private final boolean soloEvidencia;
     private final AlTerminar alTerminar;
     private final Handler h = new Handler(Looper.getMainLooper());
     private long inicio;
     private boolean terminado;
     private String ultimo = "";
+    /** Momento exacto (ms) en que se pulsó «Marcar»; 0 si no se llegó a pulsar. */
+    private long horaMarcacion;
 
-    public Marcador(Context ctx, WebView web, String turno, String tipo, boolean soloEvidencia, AlTerminar fin) {
+    public Marcador(Context ctx, WebView web, String turno, String tipo, AlTerminar fin) {
         this.ctx = ctx.getApplicationContext();
         this.web = web;
         this.turno = turno;
         this.tipo = tipo;
-        this.soloEvidencia = soloEvidencia;
         this.alTerminar = fin;
     }
 
-    /**
-     * Crea y configura un WebView. Activa antes el dibujado del documento completo:
-     * sin él, un WebView sin ventana (el del servicio) no dibuja nada al capturarlo
-     * y las evidencias salen en blanco. Debe llamarse antes de crear cualquier WebView.
-     */
+    /** Crea y configura un WebView. */
     public static WebView crearWebView(Context c) {
-        WebView.enableSlowWholeDocumentDraw();
         WebView w = new WebView(c);
         configurar(w);
         return w;
@@ -129,8 +156,7 @@ public class Marcador {
 
     public void iniciar() {
         inicio = System.currentTimeMillis();
-        Registro.log(ctx, "🚀 Iniciando " + turno + " " + tipo
-                + (soloEvidencia ? " (modo solo evidencia)" : ""));
+        Registro.log(ctx, "🚀 Iniciando " + turno + " " + tipo);
         web.onResume();
         web.resumeTimers();
         web.loadUrl(Config.URL);
@@ -145,14 +171,10 @@ public class Marcador {
     private void sondear() {
         if (terminado) return;
         if (System.currentTimeMillis() - inicio > LIMITE_MS) {
-            terminado = true; // detiene el sondeo mientras se captura
-            capturar("tiempo_agotado", () -> {
-                terminado = false;
-                terminar(false, "Tiempo agotado. Último estado: " + ultimo);
-            });
+            terminar(false, "Tiempo agotado. Último estado: " + ultimo);
             return;
         }
-        String js = JS_PASO + "(" + JSONObject.quote(turno) + "," + JSONObject.quote(tipo) + "," + soloEvidencia + ")";
+        String js = JS_PASO + "(" + JSONObject.quote(turno) + "," + JSONObject.quote(tipo) + ")";
         web.evaluateJavascript(js, r -> procesar(texto(r)));
     }
 
@@ -170,58 +192,63 @@ public class Marcador {
         ultimo = r;
         String estado = r.contains("|") ? r.substring(0, r.indexOf('|')) : r;
         String etiqueta = r.contains("|") ? r.substring(r.indexOf('|') + 1) : "";
-        String base = turno + "_" + tipo;
         switch (estado) {
             case "login":
-                capturar("sin_sesion", () ->
-                        terminar(false, "No hay sesión iniciada. Abre la app y pulsa «Iniciar sesión»."));
+                iniciarSesion();
                 break;
             case "deshabilitado":
-                capturar(base + "_deshabilitado", () ->
-                        terminar(false, "Botón deshabilitado (" + etiqueta + "): fuera de la ventana permitida."));
-                break;
-            case "habilitado":
-                capturar(base + "_habilitado", () ->
-                        terminar(true, "Botón habilitado (" + etiqueta + "). Modo solo evidencia: no se pulsó «Marcar»."));
+                terminar(false, "Botón deshabilitado (" + etiqueta + "): fuera de la ventana permitida.");
                 break;
             case "clic":
-                Registro.log(ctx, "✅ Clic en «Marcar» (" + etiqueta + ")");
-                h.postDelayed(() -> capturar(base + "_despues", () ->
-                        web.evaluateJavascript(JS_CONFIRMAR, r2 -> {
-                            boolean conf = "confirmado".equals(texto(r2));
-                            h.postDelayed(() -> capturar(base + "_final", () ->
-                                    terminar(true, "Marcación realizada (" + etiqueta + ")"
-                                            + (conf ? " y confirmada." : ". Revisa la captura."))), 2500);
-                        })), 3000);
+                horaMarcacion = System.currentTimeMillis();
+                Registro.log(ctx, "✅ Clic en «Marcar» (" + etiqueta + ") a las " + Historial.hms(horaMarcacion));
+                h.postDelayed(() -> web.evaluateJavascript(JS_CONFIRMAR, r2 -> {
+                    boolean conf = "confirmado".equals(texto(r2));
+                    h.postDelayed(() -> terminar(true, "Marcación realizada a las "
+                            + Historial.hms(horaMarcacion) + " (" + etiqueta + ")"
+                            + (conf ? " y confirmada." : ".")), 2500);
+                }), 3000);
                 break;
             default:
                 h.postDelayed(this::sondear, 1000);
         }
     }
 
-    /**
-     * Captura solo la tarjeta de marcaciones (turno, Entrada/Salida y sus horas).
-     * Si no la encuentra, captura lo visible. Luego ejecuta "despues".
-     */
-    @SuppressWarnings("deprecation")
-    private void capturar(String etiqueta, Runnable despues) {
-        web.evaluateJavascript(JS_RECT, res -> h.postDelayed(() -> {
-            android.graphics.Rect recorte = null;
-            try {
-                JSONObject r = new JSONObject(texto(res));
-                float esc = web.getScale();
-                if (esc <= 0) esc = (float) r.getDouble("dpr");
-                int m = Math.round(8 * esc);
-                recorte = new android.graphics.Rect(
-                        Math.round((float) r.getDouble("x") * esc) - m,
-                        Math.round((float) r.getDouble("y") * esc) - m,
-                        Math.round((float) (r.getDouble("x") + r.getDouble("w")) * esc) + m,
-                        Math.round((float) (r.getDouble("y") + r.getDouble("h")) * esc) + m);
-            } catch (Exception ignored) {
+    /** La página pide iniciar sesión: entra con las credenciales guardadas, si las hay. */
+    private void iniciarSesion() {
+        String usuario = Credenciales.usuario(ctx);
+        String clave = Credenciales.hay(ctx) ? Credenciales.clave(ctx) : "";
+        if (usuario.isEmpty() || clave.isEmpty()) {
+            terminar(false, "No hay sesión iniciada. Abre la app y guarda tu usuario y contraseña.");
+            return;
+        }
+        String url = web.getUrl();
+        if (url == null || !url.startsWith("https://")) {
+            terminar(false, "La página de inicio de sesión no es segura; no se enviaron las credenciales.");
+            return;
+        }
+        if (enviosClave >= MAX_ENVIOS_CLAVE || pasosLogin >= MAX_PASOS_LOGIN) {
+            terminar(false, "No se pudo iniciar sesión con el usuario y la contraseña guardados. Revísalos en la app.");
+            return;
+        }
+        if (!loginAvisado) {
+            loginAvisado = true;
+            Registro.log(ctx, "🔐 Sesión no iniciada; entrando con las credenciales guardadas...");
+        }
+        pasosLogin++;
+        String js = JS_LOGIN + "(" + JSONObject.quote(usuario) + "," + JSONObject.quote(clave) + ")";
+        web.evaluateJavascript(js, r -> {
+            if (terminado) return;
+            String res = texto(r);
+            long espera = 1000;
+            if ("enviado_clave".equals(res)) {
+                enviosClave++;
+                espera = 8000; // tiempo para que el servidor responda antes de reintentar
+            } else if ("enviado_usuario".equals(res)) {
+                espera = 4000;
             }
-            Evidencias.capturar(ctx, web, etiqueta, recorte);
-            if (despues != null) despues.run();
-        }, 700));
+            h.postDelayed(this::sondear, espera);
+        });
     }
 
     private void terminar(boolean exito, String resumen) {
@@ -230,6 +257,7 @@ public class Marcador {
         h.removeCallbacksAndMessages(null);
         CookieManager.getInstance().flush();
         Registro.log(ctx, (exito ? "🎉 " : "❌ ") + turno + " " + tipo + ": " + resumen);
-        if (alTerminar != null) alTerminar.terminado(exito, resumen);
+        Historial.agregar(ctx, turno, tipo, exito, horaMarcacion, resumen);
+        if (alTerminar != null) alTerminar.terminado(exito, horaMarcacion, resumen);
     }
 }

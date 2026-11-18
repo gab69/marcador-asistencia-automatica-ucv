@@ -6,26 +6,30 @@ Versión Android de UCV Marcador. Marca en UCV Talent a las horas configuradas,
 en segundo plano, aunque el teléfono esté bloqueado.
 
 ## Instalar
-1. Copia `apk/UCVMarcador_1.0.3.apk` al teléfono (cable, Drive, WhatsApp, etc.).
+1. Copia `apk/UCVMarcador_1.0.5.apk` al teléfono (cable, Drive, WhatsApp, etc.).
 2. Ábrelo y permite «Instalar apps desconocidas» para la app con la que lo abriste.
 3. Requisitos: Android 8.0 o superior, conexión a internet y ubicación activada.
 
 ## Primer uso
-1. **Iniciar sesión**: inicia sesión en UCV Talent y pulsa «Listo». La sesión queda guardada.
+1. **Sesión UCV Talent**: escribe tu usuario y contraseña y pulsa «Guardar». Quedan cifrados
+   en el teléfono y la app inicia sesión sola cada vez que la sesión caduca.
 2. **Permisos** › «Conceder permisos pendientes» (pulsar varias veces hasta ver todo en ✔):
    notificaciones, alarmas exactas, ubicación, ubicación «Permitir todo el tiempo»
    y sin restricción de batería.
-3. **Horarios**: pon la hora exacta a la que debe marcar cada turno.
+3. **Horarios**: elige los días de la semana en que se repite (de lunes a domingo; los no
+   seleccionados se saltan) y pon la hora exacta a la que debe marcar cada turno.
    La salida solo se puede marcar entre 20 y 1 minuto antes de la hora programada
    (ej. salida 22:00 → configura 21:55).
-4. **Prueba manual** › «Ejecutar visible» para ver el recorrido paso a paso.
-5. Deja **Modo solo evidencia** activado hasta comprobar las capturas
-   (Galería › Pictures/UCVMarcador). Luego desactívalo para marcar de verdad.
+4. **Prueba manual** › «Ejecutar visible» para ver el recorrido paso a paso
+   (ojo: la prueba también pulsa «Marcar»).
 
 ## Cómo funciona
 - Alarma exacta del sistema (`setAlarmClock`) a la hora configurada, incluso en reposo.
 - Un servicio en primer plano abre UCV Talent en un WebView oculto, pulsa la pestaña
-  «Marcación manual», el turno y «Marcar», guarda capturas y notifica el resultado.
+  «Marcación manual», el turno y «Marcar» (siempre marca), y notifica el resultado.
+- La notificación muestra la hora real de la marcación (HH:mm:ss), no la hora programada.
+- «Registro de marcaciones» muestra solo las marcaciones del día actual, con la hora exacta
+  (hora, minuto y segundo) y el resultado; «Registro de actividad» conserva el detalle técnico.
 - La ubicación es la real del GPS del teléfono; solo se comparte con ucv.edu.pe.
 - Si el teléfono estuvo apagado y la hora pasó hace más de 2 minutos, no marca tarde.
 - Tras reiniciar el teléfono la alarma se reprograma sola.
@@ -52,7 +56,9 @@ actualizaciones que se instalen encima de la versión actual.
 - `Marcador` – motor de marcación (pasos en la página)
 - `MarcadorService` – marcación en segundo plano
 - `Programador`, `AlarmReceiver`, `BootReceiver` – alarmas exactas
-- `Evidencias`, `Registro`, `Notificaciones`, `Config`
+- `Credenciales` – usuario y contraseña cifrados con el Android Keystore
+- `Historial` – registro de marcaciones (resultado y hora exacta de cada ejecución)
+- `Registro`, `Notificaciones`, `Config`
 
 ## Google Play
 - Nombre de paquete: `pe.gabrec.ucvmarcador` (no se puede cambiar después).

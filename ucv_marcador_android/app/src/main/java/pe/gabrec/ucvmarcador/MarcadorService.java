@@ -61,8 +61,8 @@ public class MarcadorService extends Service {
         web.layout(0, 0, dm.widthPixels, dm.heightPixels);
 
         final String t = turno, ti = tipo;
-        marcador = new Marcador(this, web, turno, tipo, Config.soloEvidencia(this), (exito, resumen) -> {
-            Notificaciones.resultado(this, exito, t + " " + ti, resumen);
+        marcador = new Marcador(this, web, turno, tipo, (exito, horaMarcacion, resumen) -> {
+            Notificaciones.resultado(this, exito, horaMarcacion, t + " " + ti, resumen);
             // Destruir el WebView fuera de su propio callback
             new android.os.Handler(android.os.Looper.getMainLooper()).post(this::detener);
         });

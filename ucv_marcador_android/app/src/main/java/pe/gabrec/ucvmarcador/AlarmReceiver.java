@@ -22,10 +22,15 @@ public class AlarmReceiver extends BroadcastReceiver {
 
         if (turno != null && tipo != null) {
             String hhmm = new SimpleDateFormat("HH:mm", Locale.US).format(new Date(hora));
-            if (ahora - hora > TOLERANCIA_MS) {
+            java.util.Calendar cal = java.util.Calendar.getInstance();
+            cal.setTimeInMillis(hora);
+            if (!Config.diaActivo(c, cal.get(java.util.Calendar.DAY_OF_WEEK))) {
+                Registro.log(c, "⏭ Omitido " + turno + " " + tipo + " (" + hhmm + "): día no seleccionado.");
+            } else if (ahora - hora > TOLERANCIA_MS) {
                 Registro.log(c, "⏭ Omitido " + turno + " " + tipo + " (" + hhmm + "): el teléfono estaba apagado.");
             } else {
-                Registro.log(c, "⏰ " + hhmm + " — ejecutando " + turno + " " + tipo);
+                Registro.log(c, "⏰ " + Historial.hms(ahora) + " — ejecutando " + turno + " " + tipo
+                        + " (programada " + hhmm + ")");
                 MarcadorService.iniciar(c, turno, tipo);
             }
         }

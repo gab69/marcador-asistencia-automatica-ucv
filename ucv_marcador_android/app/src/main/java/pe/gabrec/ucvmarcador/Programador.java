@@ -34,10 +34,12 @@ public final class Programador {
             if (!Config.turnoActivo(c, turno)) continue;
             for (String tipo : Config.TIPOS) {
                 String[] hm = Config.hora(c, turno, tipo).split(":");
-                for (int dia = 0; dia <= 1; dia++) {
+                // Hasta 7 días adelante: se saltan los días de la semana no seleccionados.
+                for (int dia = 0; dia <= 7; dia++) {
                     Calendar cal = Calendar.getInstance();
                     cal.setTimeInMillis(desde);
                     cal.add(Calendar.DAY_OF_YEAR, dia);
+                    if (!Config.diaActivo(c, cal.get(Calendar.DAY_OF_WEEK))) continue;
                     cal.set(Calendar.HOUR_OF_DAY, Integer.parseInt(hm[0]));
                     cal.set(Calendar.MINUTE, Integer.parseInt(hm[1]));
                     cal.set(Calendar.SECOND, 0);

@@ -40,11 +40,25 @@ public final class Config {
                 String.format(java.util.Locale.US, "%02d:%02d", h, m)).apply();
     }
 
-    public static boolean soloEvidencia(Context c) {
-        return prefs(c).getBoolean("solo_evidencia", true);
+    /** Días en orden de lunes a domingo (constantes de Calendar.DAY_OF_WEEK). */
+    public static final int[] DIAS = {java.util.Calendar.MONDAY, java.util.Calendar.TUESDAY,
+            java.util.Calendar.WEDNESDAY, java.util.Calendar.THURSDAY, java.util.Calendar.FRIDAY,
+            java.util.Calendar.SATURDAY, java.util.Calendar.SUNDAY};
+    public static final String[] DIAS_LETRA = {"L", "M", "X", "J", "V", "S", "D"};
+    public static final String[] DIAS_NOMBRE = {"lunes", "martes", "miércoles", "jueves", "viernes",
+            "sábado", "domingo"};
+
+    /** true si las marcaciones se repiten ese día (Calendar.DAY_OF_WEEK). Por defecto, todos. */
+    public static boolean diaActivo(Context c, int diaSemana) {
+        return prefs(c).getBoolean("dia_" + diaSemana, true);
     }
 
-    public static void setSoloEvidencia(Context c, boolean v) {
-        prefs(c).edit().putBoolean("solo_evidencia", v).apply();
+    public static void setDiaActivo(Context c, int diaSemana, boolean v) {
+        prefs(c).edit().putBoolean("dia_" + diaSemana, v).apply();
+    }
+
+    public static boolean hayDiasActivos(Context c) {
+        for (int d : DIAS) if (diaActivo(c, d)) return true;
+        return false;
     }
 }

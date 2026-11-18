@@ -20,13 +20,13 @@ public class PruebaActivity extends Activity {
 
         web = Marcador.crearWebView(this);
         TextView estado = new TextView(this);
-        estado.setText(turno + " · " + tipo + (Config.soloEvidencia(this) ? " · solo evidencia" : ""));
+        estado.setText(turno + " · " + tipo);
         Button cerrar = new Button(this);
         cerrar.setText("Cerrar");
         cerrar.setOnClickListener(v -> finish());
         setContentView(Pantallas.pantalla(this, Pantallas.barra(this, "Prueba de marcación", estado, cerrar), web));
 
-        marcador = new Marcador(this, web, turno, tipo, Config.soloEvidencia(this), (exito, resumen) -> {
+        marcador = new Marcador(this, web, turno, tipo, (exito, horaMarcacion, resumen) -> {
             if (isFinishing()) return;
             estado.setText(exito ? "Completado" : "Con problemas");
             new AlertDialog.Builder(this)
