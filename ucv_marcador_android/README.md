@@ -6,9 +6,13 @@ Versión Android de UCV Marcador. Marca en UCV Talent a las horas configuradas,
 en segundo plano, aunque el teléfono esté bloqueado.
 
 ## Instalar
-1. Copia `apk/UCVMarcador_1.0.5.apk` al teléfono (cable, Drive, WhatsApp, etc.).
+1. Copia `apk/UCVMarcador_1.0.6.apk` (última versión) al teléfono (cable, Drive, WhatsApp, etc.).
 2. Ábrelo y permite «Instalar apps desconocidas» para la app con la que lo abriste.
 3. Requisitos: Android 8.0 o superior, conexión a internet y ubicación activada.
+
+La 1.0.6 se instala por sí sola: no hace falta instalar antes ninguna versión anterior
+(si ya tienes una, se actualiza encima conservando la configuración). Las versiones
+anteriores quedan solo como archivo en `apk/anteriores/`.
 
 ## Primer uso
 1. **Sesión UCV Talent**: escribe tu usuario y contraseña y pulsa «Guardar». Quedan cifrados
@@ -62,6 +66,6 @@ actualizaciones que se instalen encima de la versión actual.
 
 ## Google Play
 - Nombre de paquete: `pe.gabrec.ucvmarcador` (no se puede cambiar después).
-- Sube `apk/UCVMarcador_1.0.2.aab` (Play no acepta APK). Generar: `gradlew.bat bundleRelease`.
+- Sube el `.aab` más reciente (el último fue `apk/anteriores/UCVMarcador_1.0.2.aab`) (Play no acepta APK). Generar: `gradlew.bat bundleRelease`.
 - Acepta «Firma de apps de Google Play»: `ucvmarcador.jks` queda como llave de subida.
 - Cada versión nueva debe subir `versionCode` en `app/build.gradle`.

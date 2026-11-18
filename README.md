@@ -3,6 +3,19 @@
 App de bandeja del sistema que inicia sesión en UCV Talent con Selenium, va a
 "Marcación manual" y guarda capturas como evidencia (y, si lo activas, hace clic en "Marcar").
 
+## Versión Android — 1.0.6 (última)
+APK: `ucv_marcador_android/apk/UCVMarcador_1.0.6.apk`. Se instala sola, sin necesitar
+versiones anteriores (las antiguas están archivadas en `ucv_marcador_android/apk/anteriores/`).
+Requisitos: Android 8.0 o superior, internet y ubicación activada.
+
+Novedades de la 1.0.6:
+- Siempre marca (se quitó el modo solo evidencia).
+- Ya no toma capturas.
+- El registro de marcaciones muestra solo las del día actual, con hora, minuto y segundo.
+- La notificación muestra la hora real de la marcación (HH:mm:ss), no la hora programada.
+
+Instalación y uso detallados en `ucv_marcador_android/README.md`.
+
 ## Instalar en cualquier PC (sin Python)
 Ejecuta `instalador\UCVMarcador_Setup_1.2.1.exe`. No pide permisos de administrador:
 se instala en `%LOCALAPPDATA%\UCVMarcador`, crea accesos en el menú Inicio y, opcionalmente,
